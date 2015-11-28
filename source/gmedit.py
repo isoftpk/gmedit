@@ -14,7 +14,7 @@
 
 __progname__ = 'GmEdit'
 __version__ = '0.1'
-__author__ = 'PK'
+__author__ = 'PKme'
 
 docPath = None         # modified by install script if required
 iconPath = None        # modified by install script if required
