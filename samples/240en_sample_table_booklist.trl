@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT childtype="AUTHOR" item="y" line0="{*NAME*}" line1="{*NAME*}" tlversion="1.9.3" uniqueid="SF_Books">
+<NAME idref="y" type="Text">SF Books</NAME>
+<AUTHOR childtype="BOOK" icon="book_1" item="y" line0="{*AuthorFirstName*} {*AuthorLastName*}" line1="{*AuthorFirstName*} {*AuthorLastName*} {*WebSite*}" uniqueid="Greg">
+<AuthorFirstName idref="y" type="Text">Greg</AuthorFirstName>
+<AuthorLastName type="Text">Bear</AuthorLastName>
+<WebSite prefix="&lt;" suffix="&gt;" type="ExternalLink">&lt;a href="http://www.gregbear.com"&gt;www.gregbear.com&lt;/a&gt;</WebSite>
+<BOOK formathtml="y" icon="book_3" item="y" line0="&quot;{*Title*}&quot;" line1="Title: &quot;{*Title*}&quot;" line2="Status: (c) {*Copyright*}, Own: {*Own*}" line3="Last Read: {*ReadDate*}, Rating: {*Rating*}" line4="Plot: {*Plot*}" tables="y" uniqueid="Darwins_Radio">
+<Title idref="y" type="Text">Darwin's Radio</Title>
+<Copyright format="0000" type="Number">1999</Copyright>
+<Own format="yes/no" type="Boolean">false</Own>
+<ReadDate format="M/d/yyyy" type="Date">2000/10/01</ReadDate>
+<Rating format="1/2/3/4/5" type="Choice">4</Rating>
+<Plot lines="7" type="Text">Evolution caused by virus begining again</Plot>
+</BOOK>
+<BOOK item="y" uniqueid="Blood_Music">
+<Title>Blood Music</Title>
+<Copyright>1985</Copyright>
+<Own>true</Own>
+<ReadDate>1998/07/01</ReadDate>
+<Rating>2</Rating>
+<Plot>Smart viruses take over</Plot>
+</BOOK>
+</AUTHOR>
+<AUTHOR item="y" uniqueid="Orson_Scott">
+<AuthorFirstName>Orson Scott</AuthorFirstName>
+<AuthorLastName>Card</AuthorLastName>
+<WebSite>&lt;a href="http://www.hatrack.com"&gt;www.hatrack.com&lt;/a&gt;</WebSite>
+<BOOK item="y" uniqueid="Pastwatch_The_Redemption_of_Christopher_Columbus">
+<Title>Pastwatch, The Redemption of Christopher Columbus</Title>
+<Copyright>1996</Copyright>
+<Own>Yes</Own>
+<ReadDate>1998/09/01</ReadDate>
+<Rating>4</Rating>
+<Plot>Time travel to change history; discovery of America</Plot>
+</BOOK>
+<BOOK item="y" uniqueid="Enchantment">
+<Title>Enchantment</Title>
+<Copyright>1999</Copyright>
+<Own>Yes</Own>
+<ReadDate>2000/08/01</ReadDate>
+<Rating>5</Rating>
+<Plot>Boy travels back to Russian fairy tale</Plot>
+</BOOK>
+<BOOK item="y" uniqueid="Enders_Shadow">
+<Title>Ender's Shadow</Title>
+<Copyright>1999</Copyright>
+<Own>Yes</Own>
+<ReadDate>2001/05/01</ReadDate>
+<Rating>5</Rating>
+<Plot>Ender's Game from Bean's perspective</Plot>
+</BOOK>
+</AUTHOR>
+</ROOT>

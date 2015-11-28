@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DEFAULT item="y" line0="{*Name*}" line1="{*Name*}" line2="{*Text*}" tlversion="1.9.0" uniqueid="Main">
+<Name idref="y" type="Text">Main</Name>
+<Text type="Text" />
+<LINK_TYPE item="y" line0="{*Name*}" line1="{*Name*}" line2="{*Link*}" uniqueid="Using_the_external_link_field">
+<Name idref="y" type="Text">Using the external link field</Name>
+<Link linkcount="1" type="InternalLink">&lt;a href="#Target_Node"&gt;Target Node&lt;/a&gt;</Link>
+</LINK_TYPE>
+<DEFAULT item="y" uniqueid="Embedded_links">
+<Name>Embedded links</Name>
+<Text linkcount="1">Links can be &lt;a href="#Target_Node"&gt;embedded&lt;/a&gt; in any text field text by using the Internal Link item from the Edit Menu.  The "Enable click on target" button lets you simply click on the target node.</Text>
+</DEFAULT>
+<DEFAULT item="y" uniqueid="Target_Node">
+<Name>Target Node</Name>
+<Text>By default, the target node gets its unique ID from the content of its first field. This can be changed in the Type Config tab of the Configure Types dialog.  Use the Show Advanced button to show the control for the Unique ID Reference.</Text>
+</DEFAULT>
+</DEFAULT>

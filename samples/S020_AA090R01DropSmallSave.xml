@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RSLogix5000Content item="y" line0="RSLogix5000Content" line1="SoftwareRevision=&quot;{*SoftwareRevision*}&quot;" line10="ExportOptions=&quot;{*ExportOptions*}&quot;" line2="TargetName=&quot;{*TargetName*}&quot;" line3="ExportDate=&quot;{*ExportDate*}&quot;" line4="TargetType=&quot;{*TargetType*}&quot;" line5="TargetSubType=&quot;{*TargetSubType*}&quot;" line6="TargetClass=&quot;{*TargetClass*}&quot;" line7="ContainsContext=&quot;{*ContainsContext*}&quot;" line8="Owner=&quot;{*Owner*}&quot;" line9="SchemaRevision=&quot;{*SchemaRevision*}&quot;" tlversion="0.1" uniqueid="id_2004">
+    <SoftwareRevision idref="y" type="Text">20.04</SoftwareRevision>
+    <TargetName type="Text">S020_AA090R01Drop</TargetName>
+    <ExportDate type="Text">Sat Nov 28 11:26:51 2015</ExportDate>
+    <TargetType type="Text">Routine</TargetType>
+    <TargetSubType type="Text">RLL</TargetSubType>
+    <TargetClass type="Text">Standard</TargetClass>
+    <ContainsContext type="Text">true</ContainsContext>
+    <Owner type="Text">Windows User</Owner>
+    <SchemaRevision type="Text">1.0</SchemaRevision>
+    <ExportOptions type="Text">References DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans</ExportOptions>
+    <Controller item="y" line0="Controller" line1="Use=&quot;{*Use*}&quot;" line2="Name=&quot;{*Name*}&quot;" uniqueid="context">
+        <Use idref="y" type="Text">Context</Use>
+        <Name type="Text">AA110B2</Name>
+        <Programs item="y" line0="Programs" line1="Use=&quot;{*Use*}&quot;" uniqueid="context_1">
+            <Use idref="y" type="Text">Context</Use>
+            <Program item="y" line0="Program" line1="Class=&quot;{*Class*}&quot;" line2="Use=&quot;{*Use*}&quot;" line3="Name=&quot;{*Name*}&quot;" uniqueid="standard">
+                <Class idref="y" type="Text">Standard</Class>
+                <Use type="Text">Context</Use>
+                <Name type="Text">AA110</Name>
+                <Routines item="y" line0="Routines" line1="Use=&quot;{*Use*}&quot;" uniqueid="context_2">
+                    <Use idref="y" type="Text">Context</Use>
+                    <Routine item="y" line0="Routine" line1="Type=&quot;{*Type*}&quot;" line2="Use=&quot;{*Use*}&quot;" line3="Name=&quot;{*Name*}&quot;" uniqueid="rll">
+                        <Type idref="y" type="Text">RLL</Type>
+                        <Use type="Text">Target</Use>
+                        <Name type="Text">S020_AA090R01Drop</Name>
+                        <RLLContent item="y" line0="RLLContent" uniqueid="id_1">
+                            <Element_Data idref="y" type="Text" />
+                            <Rung item="y" line0="Rung" line1="Number=&quot;{*Number*}&quot;" line2="Type=&quot;{*Type*}&quot;" uniqueid="id_0">
+                                <Number idref="y" type="Text">0</Number>
+                                <Type type="Text">N</Type>
+                                <Comment item="y" line0="{*Element_Data*}" line1="{*Element_Data*}" uniqueid="ver_1293edits_allowed">
+                                    <Element_Data idref="y" type="Text">&amp;lt;@VER 1.293&amp;gt;&amp;lt;@EDITS ALLOWED&amp;gt;</Element_Data>
+                                </Comment>
+                                <Text item="y" line0="{*Element_Data*}" line1="{*Element_Data*}" uniqueid="oterungcomment">
+                                    <Element_Data idref="y" type="Text">OTE(RungComment);</Element_Data>
+                                </Text>
+                            </Rung>
+                        </RLLContent>
+                    </Routine>
+                </Routines>
+            </Program>
+        </Programs>
+    </Controller>
+</RSLogix5000Content>

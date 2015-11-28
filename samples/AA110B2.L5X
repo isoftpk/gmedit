@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RSLogix5000Content item="y" line0="RSLogix5000Content" line1="SoftwareRevision=&quot;{*SoftwareRevision*}&quot;" line2="ExportDate=&quot;{*ExportDate*}&quot;" line3="ExportOptions=&quot;{*ExportOptions*}&quot;" line4="Owner=&quot;{*Owner*}&quot;" line5="TargetType=&quot;{*TargetType*}&quot;" line6="SchemaRevision=&quot;{*SchemaRevision*}&quot;" line7="ContainsContext=&quot;{*ContainsContext*}&quot;" line8="TargetName=&quot;{*TargetName*}&quot;" tlversion="2.0.2" uniqueid="id_2004">
+<SoftwareRevision idref="y" type="Text">20.04</SoftwareRevision>
+<ExportDate type="Text">Sun Nov 15 05:00:46 2015</ExportDate>
+<ExportOptions type="Text">DecoratedData ForceProtectedEncoding AllProjDocTrans</ExportOptions>
+<Owner type="Text">Windows User</Owner>
+<TargetType type="Text">Controller</TargetType>
+<SchemaRevision type="Text">1.0</SchemaRevision>
+<ContainsContext type="Text">false</ContainsContext>
+<TargetName type="Text">AA110B2</TargetName>
+<Controller item="y" line0="Controller" line1="InhibitAutomaticFirmwareUpdate=&quot;{*InhibitAutomaticFirmwareUpdate*}&quot;" line10="ProcessorType=&quot;{*ProcessorType*}&quot;" line11="SFCExecutionControl=&quot;{*SFCExecutionControl*}&quot;" line12="SFCLastScan=&quot;{*SFCLastScan*}&quot;" line13="SFCRestartPosition=&quot;{*SFCRestartPosition*}&quot;" line14="MajorFaultProgram=&quot;{*MajorFaultProgram*}&quot;" line15="CompatibilityMode=&quot;{*CompatibilityMode*}&quot;" line16="CommPath=&quot;{*CommPath*}&quot;" line17="ProjectCreationDate=&quot;{*ProjectCreationDate*}&quot;" line18="LastModifiedDate=&quot;{*LastModifiedDate*}&quot;" line19="TimeSlice=&quot;{*TimeSlice*}&quot;" line2="CanUseRPIFromProducer=&quot;{*CanUseRPIFromProducer*}&quot;" line3="Name=&quot;{*Name*}&quot;" line4="MatchProjectToController=&quot;{*MatchProjectToController*}&quot;" line5="ShareUnusedTimeSlice=&quot;{*ShareUnusedTimeSlice*}&quot;" line6="MinorRev=&quot;{*MinorRev*}&quot;" line7="ProjectSN=&quot;{*ProjectSN*}&quot;" line8="MajorRev=&quot;{*MajorRev*}&quot;" line9="Use=&quot;{*Use*}&quot;" uniqueid="id_0">
+<InhibitAutomaticFirmwareUpdate idref="y" type="Text">0</InhibitAutomaticFirmwareUpdate>
+<CanUseRPIFromProducer type="Text">true</CanUseRPIFromProducer>
+<Name type="Text">AA110B2</Name>
+<MatchProjectToController type="Text">false</MatchProjectToController>
+<ShareUnusedTimeSlice type="Text">1</ShareUnusedTimeSlice>
+<MinorRev type="Text">13</MinorRev>
+<ProjectSN type="Text">16#00af_d525</ProjectSN>
+<MajorRev type="Text">20</MajorRev>
+<Use type="Text">Target</Use>
+<ProcessorType type="Text">1756-L72S</ProcessorType>
+<SFCExecutionControl type="Text">CurrentActive</SFCExecutionControl>
+<SFCLastScan type="Text">DontScan</SFCLastScan>
+<SFCRestartPosition type="Text">MostRecent</SFCRestartPosition>
+<MajorFaultProgram type="Text">FaultHandler</MajorFaultProgram>
+<CompatibilityMode type="Text">V20.01</CompatibilityMode>
+<CommPath type="Text">AB_ETHIP-1\120.15.87.68\Backplane\0</CommPath>
+<ProjectCreationDate type="Text">Wed May 20 12:04:27 2015</ProjectCreationDate>
+<LastModifiedDate type="Text">Mon Sep 07 16:39:20 2015</LastModifiedDate>
+<TimeSlice type="Text">30</TimeSlice>
+<Task item="y" line0="Task" line1="Type=&quot;{*Type*}&quot;" line2="InhibitTask=&quot;{*InhibitTask*}&quot;" line3="Watchdog=&quot;{*Watchdog*}&quot;" line4="Name=&quot;{*Name*}&quot;" line5="Priority=&quot;{*Priority*}&quot;" line6="Class=&quot;{*Class*}&quot;" line7="DisableUpdateOutputs=&quot;{*DisableUpdateOutputs*}&quot;" uniqueid="continuous">
+<Type idref="y" type="Text">CONTINUOUS</Type>
+<InhibitTask type="Text">false</InhibitTask>
+<Watchdog type="Text">500</Watchdog>
+<Name type="Text">MainTask</Name>
+<Priority type="Text">10</Priority>
+<Class type="Text">Standard</Class>
+<DisableUpdateOutputs type="Text">false</DisableUpdateOutputs>
+<ScheduledPrograms item="y" line0="ScheduledPrograms" uniqueid="id_1">
+<Element_Data idref="y" type="Text" />
+<ScheduledProgram item="y" line0="ScheduledProgram" line1="Name=&quot;{*Name*}&quot;" uniqueid="mcp">
+<Name idref="y" type="Text">MCP</Name>
+</ScheduledProgram>
+<ScheduledProgram item="y" uniqueid="aa110cell">
+<Name>AA110Cell</Name>
+</ScheduledProgram>
+<ScheduledProgram item="y" uniqueid="aa110">
+<Name>AA110</Name>
+</ScheduledProgram>
+<ScheduledProgram item="y" uniqueid="aa120">
+<Name>AA120</Name>
+</ScheduledProgram>
+</ScheduledPrograms>
+</Task>
+<Program item="y" line0="Program" line1="Disabled=&quot;{*Disabled*}&quot;" line2="MainRoutineName=&quot;{*MainRoutineName*}&quot;" line3="TestEdits=&quot;{*TestEdits*}&quot;" line4="Class=&quot;{*Class*}&quot;" line5="Name=&quot;{*Name*}&quot;" uniqueid="false">
+<Disabled idref="y" type="Text">false</Disabled>
+<MainRoutineName type="Text">A000_Main</MainRoutineName>
+<TestEdits type="Text">false</TestEdits>
+<Class type="Text">Standard</Class>
+<Name type="Text">MCP</Name>
+<Tags item="y" line0="Tags" uniqueid="id_2">
+<Element_Data idref="y" type="Text" />
+<Tag item="y" line0="Tag" line1="TagType=&quot;{*TagType*}&quot;" line2="Name=&quot;{*Name*}&quot;" line3="DataType=&quot;{*DataType*}&quot;" line4="ExternalAccess=&quot;{*ExternalAccess*}&quot;" line5="Constant=&quot;{*Constant*}&quot;" line6="AliasFor=&quot;{*AliasFor*}&quot;" uniqueid="base">
+<TagType idref="y" type="Text">Base</TagType>
+<Name type="Text">C1</Name>
+<DataType type="Text">zd_IP54PLC_MCP</DataType>
+<ExternalAccess type="Text">Read/Write</ExternalAccess>
+<Constant type="Text">false</Constant>
+<AliasFor type="Text" />
+<Description item="y" line0="{*Element_Data*}" line1="{*Element_Data*}" uniqueid="main_control_panel_structure">
+<Element_Data idref="y" type="Text">Main Control Panel Structure</Element_Data>
+</Description>
+</Tag>
+</Tags>
+</Program>
+<Program item="y" uniqueid="false_1">
+<Disabled>false</Disabled>
+<MainRoutineName>A000_Main</MainRoutineName>
+<TestEdits>false</TestEdits>
+<Class>Standard</Class>
+<Name>AA110Cell</Name>
+<Tags item="y" uniqueid="id_3">
+<Tag item="y" uniqueid="alias">
+<TagType>Alias</TagType>
+<Name>Cell</Name>
+<ExternalAccess>Read/Write</ExternalAccess>
+<AliasFor>AA110Cell</AliasFor>
+<Description item="y" uniqueid="cell_alias">
+<Element_Data>Cell Alias</Element_Data>
+</Description>
+</Tag>
+</Tags>
+</Program>
+<Program item="y" uniqueid="false_2">
+<Disabled>false</Disabled>
+<MainRoutineName>A000_Main</MainRoutineName>
+<TestEdits>false</TestEdits>
+<Class>Standard</Class>
+<Name>AA110</Name>
+<Tags item="y" uniqueid="id_4">
+<Description item="y" uniqueid="station_aa110">
+<Element_Data>Station AA110</Element_Data>
+</Description>
+</Tags>
+</Program>
+<Program item="y" uniqueid="false_3">
+<Disabled>false</Disabled>
+<MainRoutineName>A000_Main</MainRoutineName>
+<TestEdits>false</TestEdits>
+<Class>Standard</Class>
+<Name>AA120</Name>
+<Tags item="y" uniqueid="id_5">
+<Description item="y" uniqueid="station_aa110_1">
+<Element_Data>Station AA110</Element_Data>
+</Description>
+</Tags>
+</Program>
+</Controller>
+</RSLogix5000Content>

@@ -1,0 +1,1514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<HEADINGS formathtml="y" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*}&lt;/b&gt;" tlversion="2.0.2" uniqueid="treeline_documentation">
+<Name idref="y" type="Text">TreeLine Documentation</Name>
+<HEADINGS item="y" uniqueid="introduction_1">
+<Name>Introduction</Name>
+<PARAGRAPH icon="bullet_2" item="y" line0="{*Name*}" line1="{*Text*}" uniqueid="version">
+<Name idref="y" type="Text">Version</Name>
+<Text lines="8" type="Text">This document covers TreeLine, Version 2.0.2, released October 3, 2015 by Doug Bell.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="why_treeline">
+<Name>Why TreeLine?</Name>
+<Text>Do you have lots of sticky notes lying around with various useful information jotted down? Or many lists of books, movies, links, website logins, personal contacts, or things to do? Can you find them when you need them? Well, I often couldn't. So here's my answer.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="outliner_vs_database">
+<Name>Outliner vs. database</Name>
+<Text>Treeline is both an outliner and a small database. It stores almost any kind of information. A tree structure makes it easy to keep things organized. And each node in the tree can contain several fields, forming a database. The output format for each node can be defined, and the output can be shown on the screen, printed, or exported to HTML or text.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="license">
+<Name>License</Name>
+<Text>Since I'm not in the software business, I'm making this program free for anyone to use, distribute and modify, as long as it stays non-proprietary.  TreeLine is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either Version 2 of the License, or (at your option) any later version.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. See the LICENSE file provided with this program for more information.</Text>
+</PARAGRAPH>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="features">
+<Name>Features</Name>
+<BULLET_HEADING childtype="BULLETS" formathtml="y" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*}&lt;/b&gt;" spacebetween="n" uniqueid="general">
+<Name idref="y" type="Text">General</Name>
+<BULLETS bullets="y" formathtml="y" icon="bullet_1" item="y" line0="{*Name*}" line1="{*Text*}" spacebetween="n" uniqueid="store_information">
+<Name idref="y" type="Text">Store information</Name>
+<Text lines="2" type="Text">Stores almost any type of information, including plain text, rich text, HTML, numbers, dates, times, booleans, URLs, etc.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="tree_structure">
+<Name>Tree structure</Name>
+<Text>The tree structure helps keep things organized.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="fields">
+<Name>Fields</Name>
+<Text>Each node can have several fields that form a mini-database.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="node_types">
+<Name>Node types</Name>
+<Text>Several node types, with different sets of fields, can be included in one file.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="output_format">
+<Name>Output format</Name>
+<Text>The node format, including fields, output lines, formatting and tree-view icon, can be defined for each node type.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="views_1">
+<Name>Views</Name>
+<BULLETS item="y" uniqueid="tree_view">
+<Name>Tree view</Name>
+<Text>The left-hand view shows an indented list of titles</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="right-hand_views">
+<Name>Right-hand views</Name>
+<Text>The right-hand view can show one of three views - for showing output, editing node data and editing node titles.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="show_parent_and_children">
+<Name>Show parent and children</Name>
+<Text>The right-hand view is normally split to show data from the parent node and its children.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="show_multiple_selection">
+<Name>Show multiple selection</Name>
+<Text>If multiple nodes are selected, the right-hand view shows all of their data.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="show_descendant_output">
+<Name>Show descendant output</Name>
+<Text>The output view can be set to show indented output from all descendant nodes.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="navigation">
+<Name>Navigation</Name>
+<BULLETS item="y" uniqueid="find_commands">
+<Name>Find commands</Name>
+<Text>Find commands can search node data for text or for more specific rules.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="filtering_1">
+<Name>Filtering</Name>
+<Text>Filtering commands show only matching nodes in a flat left-hand view.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="toggle_selections">
+<Name>Toggle selections</Name>
+<Text>Previous and next selection commands toggle selections to quickly move between parts of the tree.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="formatting">
+<Name>Formatting</Name>
+<BULLETS item="y" uniqueid="configuration_dialog">
+<Name>Configuration dialog</Name>
+<Text>The dialog for data type configuration has several tabs to easily set all type, field and output parameters.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="format_copies">
+<Name>Format copies</Name>
+<Text>Formatting information can be copied from another TreeLine file.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="file_handling">
+<Name>File Handling</Name>
+<BULLETS item="y" uniqueid="undoredo">
+<Name>Undo/redo</Name>
+<Text>Undo and redo commands are available for all modifying operations.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_formats">
+<Name>File formats</Name>
+<Text>TreeLine files are XML by default, with options for automatically compressing or encrypting the files.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="document_templates">
+<Name>Document templates</Name>
+<Text>Document templates for new files are preformatted to cover basic needs.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="printing">
+<Name>Printing</Name>
+<Text>The formatted output can be printed with parent/child lines, headers and footers.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="file_import_and_export">
+<Name>File Import and Export</Name>
+<BULLETS item="y" uniqueid="html_export">
+<Name>HTML export</Name>
+<Text>The data can be exported to single or multiple HTML files with optional navigation panes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="text_importexport">
+<Name>Text import/export</Name>
+<Text>Plain text, tab-indented text and tab-delimited table files can be imported and exported.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="bookmark_importexport">
+<Name>Bookmark import/export</Name>
+<Text>Mozilla and XBEL format bookmark files can be imported and exported.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="generic_xml_importexport">
+<Name>Generic XML import/export</Name>
+<Text>Generic XML files can be imported and exported, allowing TreeLine to function as a crude XML editor.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="odf_importexport">
+<Name>ODF import/export</Name>
+<Text>ODF text documents can be imported and exported as outlines.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="linking">
+<Name>Linking</Name>
+<BULLETS item="y" uniqueid="internal_links">
+<Name>Internal links</Name>
+<Text>Internal link fields toggle the selection to a linked node when clicked.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="external_links">
+<Name>External links</Name>
+<Text>External link fields can be used to open URLs in web browsers.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="embedded_links">
+<Name>Embedded links</Name>
+<Text>Both internal and external links can be embedded into text fields.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="data_manipulation">
+<Name>Data Manipulation</Name>
+<BULLETS item="y" uniqueid="sorting">
+<Name>Sorting</Name>
+<Text>Nodes can be sorted by title or by predefined node type criteria.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_fields">
+<Name>Math Fields</Name>
+<Text>Math fields can be defined that automatically calculate their contents based on numerical values in other nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="numbering">
+<Name>Numbering</Name>
+<Text>Numbering fields can be defined and automatically updated.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_types">
+<Name>Conditional types</Name>
+<Text>A node's icon and output format can be changed conditionally based on its data.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="spell_check">
+<Name>Spell check</Name>
+<Text linkcount="1">Text data can be spell checked (requires an external program - see the &lt;a href="#system_requirements"&gt;System Requirements&lt;/a&gt;  section).</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="arranging_data">
+<Name>Arranging data</Name>
+<Text>Data can be automatically arranged using either parent references or categories from data fields.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="customization">
+<Name>Customization</Name>
+<BULLETS item="y" uniqueid="customization_1">
+<Name>Customization</Name>
+<Text>There are many options for customizing both general and file-based attributes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="shortcuts_and_toolbars">
+<Name>Shortcuts and toolbars</Name>
+<Text>There are editors for keyboard shortcuts and toolbar commands.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="fonts">
+<Name>Fonts</Name>
+<Text>Fonts used for editing and output can be customized.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="languages">
+<Name>Languages</Name>
+<Text>The user interface is available in English, German and Portuguese.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="plugins">
+<Name>Plugins</Name>
+<Text>Plugin extension modules can be loaded to further customize TreeLine.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="system_requirements">
+<Name>System Requirements</Name>
+<BULLET_HEADING item="y" uniqueid="linux">
+<Name>Linux</Name>
+<BULLETS item="y" uniqueid="python">
+<Name>Python</Name>
+<Text>Python (Version 3.2 or higher)</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="qt">
+<Name>Qt</Name>
+<Text>QT (Version 4.6, 4.7 or 4.8)</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="pyqt">
+<Name>PyQt</Name>
+<Text>PyQt (Version 4.8.x, 4.9.x, 4.10.x or 4.11.x)</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="spell_check_1">
+<Name>Spell check</Name>
+<Text>If spell checking is desired, either aspell, ispell or hunspell are required</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="windows">
+<Name>Windows</Name>
+<BULLETS item="y" uniqueid="binary">
+<Name>Binary</Name>
+<Text>Should run on any computer running Windows XP, Vista, 7 or 8.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="spell_check_2">
+<Name>Spell check</Name>
+<Text>If spell checking is desired, an external program is required. Either aspell, ispell or hunspell must be installed.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="installation">
+<Name>Installation</Name>
+<HEADINGS item="y" uniqueid="linux_1">
+<Name>Linux</Name>
+<PARAGRAPH item="y" uniqueid="basic_installation">
+<Name>Basic installation</Name>
+<Text>Extract the source files from the treeline tar file, then change to the TreeLine directory in a terminal. For a basic installation, simply execute the following command as root: "python install.py".</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="python_3">
+<Name>Python 3</Name>
+<Text>If your distribution defaults to Python 2.x, you may need to substitute "python3", "python3.2" or "python3.3" for "python" in these commands.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="install_options">
+<Name>Install options</Name>
+<Text>To see all install options, use: "python install.py -h". To install TreeLine with a different prefix (the default is /usr/local), use:  "python install.py -p /prefix/path".</Text>
+</PARAGRAPH>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="windows_1">
+<Name>Windows</Name>
+<PARAGRAPH item="y" uniqueid="all_users">
+<Name>All users</Name>
+<Text>To install for all users, execute the "TreeLine-x.x.x-install-all.exe" file.  Administrator permissions are required.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="single_user">
+<Name>Single user</Name>
+<Text>To install for a single user (administrator rights are not required), execute the "TreeLine-x.x.x-install-user.exe" file.</Text>
+</PARAGRAPH>
+<PARAGRAPH item="y" uniqueid="portable_install">
+<Name>Portable install</Name>
+<Text>For a portable install, execute the "TreeLine-x.x.x-install-user.exe" file. The file association, shortcuts and uninstaller tasks should be unchecked. When TreeLine starts and prompts for the config file location, choose the program directory option.</Text>
+</PARAGRAPH>
+</HEADINGS>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="basic_usage">
+<Name>Basic Usage</Name>
+<HEADINGS item="y" uniqueid="views">
+<Name>Views</Name>
+<HEAD_PARA formathtml="y" icon="bullet_2" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*} - &lt;/b&gt;{*Text*}" uniqueid="tree_view_1">
+<Name idref="y" type="Text">Tree View</Name>
+<Text lines="8" type="Text">The left-hand view shows a tree of node titles. Parent nodes can be opened and closed to display or hide their indented descendant nodes. Clicking on an already selected node allows the title to be edited.  Right-click context menus are available for commonly used functions.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="right-hand_views_1">
+<Name>Right-hand Views</Name>
+<Text>The right pane is tabbed to show one of three different views of the data. The "Data Output" view shows the formatted text, the "Data Edit" view shows a text edit boxes, and the "Title List" view shows an editable list of node titles.&lt;br /&gt;
+&lt;br /&gt;
+When a parent node is selected in the tree, the right view will default to showing information about the selected node in an upper pane and information about the selected node's children in a lower pane. The "View &amp;gt; Show Child Pane" command will toggle the display of the child nodes. If the selected node has no children, the view will show a single pane with information about the selected node only.&lt;br /&gt;
+&lt;br /&gt;
+When multiple nodes are selected in the tree (by holding down the shift or Ctrl keys while clicking), the right view will not display any child node information. It will instead show information about every selected node.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="data_output_view">
+<Name>Data Output View</Name>
+<Text>The "Data Output" view shows formatted output text. It cannot be edited from this view.&lt;br /&gt;
+&lt;br /&gt;
+When the "View &amp;gt; Show Output Descendants" command is toggled, the "Data Output" view will show an indented list with information about every descendant of a single selected node.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="data_edit_view">
+<Name>Data Edit View</Name>
+<Text>The "Data Edit" view shows a text edit box for each data field within a node.  It also shows the node types and the node titles.  The types of edit boxes vary based on the field type.  Some are just text editors, while others (such as choice fields, date fields, links, etc.) have pull-down menus or dialogs.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="title_list_view">
+<Name>Title List View</Name>
+<Text>The "Title List" view shows a list of node titles that can be modified using typical text editor methods.  If a new line is typed, a new node is created with that title.  If a line is deleted, the corresponding node is removed from the tree.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="editing">
+<Name>Editing</Name>
+<HEAD_PARA item="y" uniqueid="node_menu">
+<Name>Node Menu</Name>
+<Text>The commands in the "Node" menu operate on the selected nodes in the left tree view. There are commands to add or insert nodes, rename node titles and delete nodes. There are also commands to rearrange the tree by changing indent levels or moving nodes up or down. For many of the commands, the descendants of the selected nodes are also affected.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="edit_menu">
+<Name>Edit Menu</Name>
+<Text>The edit menu includes undo and redo commands that can fix problems.  Cut, copy and paste commands can operate either on text in the right-hand view (if selected or active) or to tree nodes.  It also has text formatting commands that are active when using edit boxes in the Data Edit view.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="shortcuts">
+<Name>Shortcuts</Name>
+<Text>There are several shortcuts for use in tree editing. Drag and drop will move (or copy if the Ctrl button is held) nodes. Clicking on a selected node will rename it. Pressing the delete key will remove the selected nodes. If desired, these shortcuts can be disabled in "Tools &amp;gt; General Options".</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="files">
+<Name>Files</Name>
+<HEAD_PARA item="y" uniqueid="templates">
+<Name>Templates</Name>
+<Text>When starting a new file, a dialog box offers a choice of templates. The default has only a single text field for each node that contains the title. The Long Text template adds a second long text field for more output text. Other templates have various fields for contacts, book lists and to-do lists.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="sample_files">
+<Name>Sample Files</Name>
+<Text>Various TreeLine sample files can be opened by using the "File &amp;gt; Open Sample" command.  These have more detail and example content than the new file templates.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="data_types">
+<Name>Data Types</Name>
+<HEAD_PARA item="y" uniqueid="node_types_1">
+<Name>Node Types</Name>
+<Text>Multiple node data types can be defined in a TreeLine file. Each can contain different data fields and have different output formats. See the template and sample files for examples. Nodes can be set to a specific type using the "Data &amp;gt; Set Node Type" command.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="type_config">
+<Name>Type Config</Name>
+<Text>The "Data &amp;gt; Configure Data Types" command is used to modify node data types, fields and output formatting.  Refer to the Detailed Usage section of the full documentation for details.</Text>
+</HEAD_PARA>
+</HEADINGS>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="detailed_usage">
+<Name>Detailed Usage</Name>
+<HEADINGS item="y" uniqueid="tree_navigation_and_search">
+<Name>Tree Navigation and Search</Name>
+<HEAD_PARA item="y" uniqueid="keyboard_shortcuts">
+<Name>Keyboard Shortcuts</Name>
+<Text>There are several keyboard commands that can be used for tree navigation. The up and down arrow keys move the selection. The left and right arrows open and close the current node. Holding the CTRL and SHIFT keys with "J" or "K" moves between siblings, skipping children. The "Home", "End", "Page Up" and "Page Down" keys can be used to move quickly through the tree. The CTRL and SHIFT keys can be held with the "Page Up" and "Page Down" keys to move the tree view even when a different pane is focused.&lt;br /&gt;
+&lt;br /&gt;
+Another way to move through the tree is to type the first letter of a visible node title. Hitting the letter again moves to the next possibility.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="selection">
+<Name>Selection</Name>
+<Text>Multiple nodes can be selected by holding down the CTRL or the SHIFT key when changing the active node. Individual nodes are added or removed from the selection when the CTRL key is held. The selection of all nodes between the old and new active nodes are toggled when SHIFT is held. The active node can be changed by using the mouse or by using any of the keyboard navigation methods.&lt;br /&gt;
+&lt;br /&gt;
+Note that multiple nodes selected with the CTRL key are output in the order selected.&lt;br /&gt;
+&lt;br /&gt;
+The "View &amp;gt; Previous Selection" and "View &amp;gt; Next Selection" commands can be used to toggle through a history of selections, allowing faster navigation through the tree.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="searching">
+<Name>Searching</Name>
+<Text>The "Tools &amp;gt; Find Text" command will search for text within the tree structure. The dialog box has options for searching all of the node data or only the node titles. There are also options for how to interpret the search text. Key words will match nodes with the search words found anywhere in the node. Key full words will only match complete words anywhere in the node. Full phrase will only match the complete phrase in the proper sequence. Finally, the regular expression option will search using Python regular expressions.&lt;br /&gt;
+&lt;br /&gt;
+The "Tools &amp;gt; Conditional Find" command will search in particular node types and node fields. Various comparison operators can be selected to exactly match, to match a greater or lesser value, or part of the value. And the True/False operators give the same result regardless of the values. In general, the value is interpreted using the edit format for special field types. Multiple rules can be added, connected with logical "and" or "or" operators.  The "All Types" option makes fields from every type are available, so that multiple node types to be part of the same search.  The condition will be false for node types that do not contain that field name.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="filtering">
+<Name>Filtering</Name>
+<Text>There are two filtering commands, "Tools &amp;gt; Text Filter" and "Tools &amp;gt; Conditional Filter".  They work like the corresponding search commands above, except that they show all of the matching nodes in a flat list that replaces the tree view.  The nodes can be selected and edited from this view.  Use the "End Filter" button to restore the full tree view.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="defining_node_types">
+<Name>Defining Node Types</Name>
+<HEAD_PARA item="y" uniqueid="type_list">
+<Name>Type List</Name>
+<Text>The "Type List" is the first tab of the "Data &amp;gt; Configure Types Dialog". The list of data types can be modified by the buttons on the right. New types can be added, and existing types can be copied, renamed or deleted.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="type_config_1">
+<Name>Type Config</Name>
+<Text>"Type Config" is the second tab of the Configure Types Dialog. It contains a selection for the default child type. If set, this will be the initial type used for new children with this type of parent. If set to "[None]", children will default to either the type of their siblings or their parent.&lt;br /&gt;
+&lt;br /&gt;
+The "Change Icon" button allows the selection of a custom tree icon for this data type. The "Clear Select" button on the icon dialog can be used to set the icon to "None", so that no icon will be displayed for this type. To avoid showing any tree icons, the "Show icons in the tree view" general option can be unset.&lt;br /&gt;
+&lt;br /&gt;
+There are also options here for adding blanks lines between nodes, allowing HTML tags in the common format text, and changing the output  to add bullets or tables.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="field_list">
+<Name>Field List</Name>
+<Text>The "Field List" is the third tab of the Configure Types Dialog. The list of fields within a data type can be modified by using the buttons on the right. New fields can be added, and existing fields can be moved, renamed or deleted.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="field_config">
+<Name>Field Config</Name>
+<Text>"Field Config" is the fourth tab of the Configure Types Dialog. The field type and its output format string can be set, if applicable to the field. Extra prefix and suffix text to be output with the field can also be set, and a default field value for new nodes can be entered. Finally, the number of lines displayed in the editor for the field can be specified.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="output">
+<Name>Output</Name>
+<Text>"Output" is the last tab of the Configure Types Dialog. The left half of the dialog shows the fields. The right half shows the formatting for the title (used for the node text in the tree view) and the node output. The formatting consists of text lines with embedded fields. The fields are shown as "{*field_name*}". The field that is selected in the list can be added to a format at the cursor position with the "&amp;gt;&amp;gt;" keys. The field reference at the cursor can be removed with the "&amp;lt;&amp;lt;" keys.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="field_types">
+<Name>Field Types</Name>
+<HEAD_PARA item="y" uniqueid="field_options">
+<Name>Field Options</Name>
+<Text>The field type and options are set in the "Field Config" tab of the "Data &amp;gt; Configure Types Dialog". The many different field types are described in the paragraphs below.&lt;br /&gt;
+&lt;br /&gt;
+Several of the field types use a formatting string to define their output. For a list of available formatting characters, use the "Format Help" button. Entries in the data editor which do not match the format will cause a blue triangle to show in the upper left corner of the edit box, and the output for that field will be replaced with "#####".</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="text_type">
+<Name>Text Type</Name>
+<Text>The default field type is a text field. It is the most commonly used field.  These fields are edited using edit boxes in the data editor view. There are several commands in the Edit menu (and also in the context menu) for setting the font style and adding external or internal links. The edit box height expands when re-displayed after adding several lines of text. The minimum edit box height can also be set explicitly in the "Field Config" tab.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="html_text_type">
+<Name>HTML Text Type</Name>
+<Text>This type allows simple HTML tags to be used in the text. Commonly used tags include "&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;", "&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;", "line break&amp;lt;br/&amp;gt;", "horizontal line&amp;lt;hr/&amp;gt;", and various font tags. Complex block tags should generally be avoided. Carriage returns are ignored and non-escaped "&amp;lt;", "&amp;gt;" and "&amp;amp;" symbols do not display. </Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="one_line_text_type">
+<Name>One Line Text Type</Name>
+<Text>This type restricts the text length to a single line.  It does not allow carriage returns, but does not restrict line wrapping of a single long line.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="spaced_text_type">
+<Name>Spaced Text Type</Name>
+<Text>This type holds plain text and preserves all spacing.  Other formatting of the text is not permitted.  It could be useful to use the "Tools &amp;gt; Customize Fonts" command to set the editor font to a mono-spaced font when using this field type.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="number_type">
+<Name>Number Type</Name>
+<Text>In the number type, special characters in the format define the display of the numbers. The format uses a string of "#" (optional digit) and "0" (required digit) characters to define the output formatting. For example, pi formatted with "#.#" is "3.1" and formatted with "00.00" is "03.14". Regardless of the formatting, digits to the left of the decimal point are not truncated, since that would display an incorrect result. But use care to show enough decimal places (either optional or required) to avoid problems with round-off error.&lt;br /&gt;
+&lt;br /&gt;
+The radix character can be specified as either "." or "," to handle internationalization. For use as a thousands separator, use "\," or "\.". For example, a large number may be formatted as "#\,###\,###.##" or as "#\.###\.###,##". Press the "Format Help" button from the field format dialog for more formatting details. &lt;br /&gt;
+&lt;br /&gt;
+Unlike most other formats, the number type also uses the output format for display in the Data Editor. Of course, any new entry with a reasonable format is correctly interpreted (but the correct radix character must be used).</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="boolean_type">
+<Name>Boolean Type</Name>
+<Text>This type gives two choices corresponding to true/false values. The format help menu includes typical values such as "yes/no", "true/false" and "1/0", but users can also enter their own word pair. The data editor boxes will accept either the currently set format or any of the typical values.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="date_type">
+<Name>Date Type</Name>
+<Text>In the date field type, special characters in the format are replaced by elements of the data, similar to number fields. Press the "Format Help" button from the field format dialog for formatting details. &lt;br /&gt;
+&lt;br /&gt;
+There is also an edit format under "Tools &amp;gt; General Options &amp;gt; Data Editor Formats". This controls how date fields are displayed in the Data Editor view. Generally, entries in the data editor with various formats will be correctly interpreted regardless of this setting, but dates must use the correct day-month-year sequence. Also note that the date editor format does not support days of the week.&lt;br /&gt;
+&lt;br /&gt;
+A default initial field value of "Now" can be used to enter the date of node creation.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="time_type">
+<Name>Time Type</Name>
+<Text>In the time field type, special characters in the format are replaced by elements of the data, similar to number fields. Press the "Format Help" button from the field format dialog for formatting details. &lt;br /&gt;
+&lt;br /&gt;
+There is also an edit format under "Tools &amp;gt; General Options &amp;gt; Data Editor Formats". This controls how time fields are displayed in the Data Editor view. Generally, entries in the data editor with various formats will be correctly interpreted regardless of this setting.&lt;br /&gt;
+&lt;br /&gt;
+A default initial field value of "Now" can be used to enter the time of node creation.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="choice_type">
+<Name>Choice Type</Name>
+<Text>The choice field type allows for the selection of text items from a pull-down edit list. The formatting strings for these types list the items separated with the "/" character (use "//" to get a literal "/" in an item).  Entries in the data editor which do not match the choices will cause a blue triangle to show in the upper left corner of the edit box, and the output for that field will be replaced with "#####".</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="auto_choice_type">
+<Name>Auto Choice Type</Name>
+<Text>This field type is similar to the choice type, but without a format string. The entries in the pull-down menu are automatically generated from all previously used entries. Any entries that are typed will be available in the pull-down menu for future use. </Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="combination_type">
+<Name>Combination Type</Name>
+<Text>This is basically the equivalent of the choice type with multiple selection. The formatting string entries are separated by the "/" character. The pull-down menu shows check-boxes that are checked for currently selected nodes. By default, the selected entries are output separated by a comma and a space. This can be changed in the "Type Config" tab of the "Data &amp;gt; Configure Types Dialog". Click the "Show Advanced" button to see the separator setting.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="auto_combination_type">
+<Name>Auto Combination Type</Name>
+<Text>This field type is similar to the combination type, but without a format string. The entries in the pull-down menu are automatically generated from all previously used entries. Any entries that are typed will be available in the pull-down menu for future use. </Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="external_link_type">
+<Name>External Link Type</Name>
+<Text>This type can support various link protocols, including http and https for web pages, mailto for email addresses and file for local files.  A pull down dialog in the data editor allows the selection of the protocol type and the entry of an address and a display name.  In the edit boxes, the display name shows up in [brackets], and it is used as the text of the link in the output view.  The "file" protocol also provides a button to browse for a path and buttons to choose either absolute or relative path names.&lt;br /&gt;
+&lt;br /&gt;
+Clicking on the link in the output view or choosing "Open Link" from the right-click context menu in the edit box will open the link in a web browser.   In Linux, setting the "BROWSER" environment variable to a string like "mozilla %s" will result in the desired browser being used.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="internal_link_type">
+<Name>Internal Link Type</Name>
+<Text>These links create shortcuts to select nodes elsewhere in the tree structure. The unique ID of the referenced node is entered along with a display name. The pull down dialog in the data editor has an "Enable click on target" button. Once clicked, the target node can be selected and the appropriate unique node ID will be entered. Like external links, this link can be clicked in the output view, or "Open Link" can be chosen from the right-click context menu.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="picture_type">
+<Name>Picture Type</Name>
+<Text>These links add referenced pictures to the output view. A pull down dialog in the data editor has a button to browse for picture files to be linked. It also allows absolute or relative paths to be used and has a small image preview.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="math_type">
+<Name>Math Type</Name>
+<Text>Math field types are configured by defining equations. The equations can reference number fields, date fields, time fields, boolean fields, text fields and/or other math fields. The resulting values of math fields are automatically calculated for each node.&lt;br /&gt;
+&lt;br /&gt;
+To define a math field equation, press the "Define Equation" button in the "Field Config" tab of the "Data &amp;gt; Configure Types Dialog". This brings up a dialog with fields to reference on the left and math operators on the right. The "Reference Level" pull-down determines whether the reference is from the same node, the node's parent, the root node, or the node's children. The "Result Type" pull-down allows numeric, date, time, boolean or text results to be chosen. The "Operator Type" pull-down allows numeric, comparison or text operators to be shown in the operator list. The down-arrow buttons below the references and operators add the selected item to the equation text below. Portions of equations can also be typed directly in the equation text line editor.&lt;br /&gt;
+&lt;br /&gt;
+References to child nodes must be enclosed in a grouping function, such as sum, max, min, mean or join. A math field can contain a parent or child reference to itself, but not a same-level reference to itself (a circular reference). The references only contain the field name, so they will reference a parent or child field with that name even if it is a different node type.&lt;br /&gt;
+&lt;br /&gt;
+In equations, date fields are represented by the number of days since January 1, 1970, and time fields are the number of seconds since midnight. So date fields can be subtracted to give the number of days elapsed, and numbers of days can be added to or subtracted from dates to result in new dates. Time fields can be subtracted to give the number of seconds elapsed, and numbers of seconds can be added to or subtracted from times to result in new times.&lt;br /&gt;
+&lt;br /&gt;
+The "if" comparison operator can be used to make the result depend on the value of another field. The expression is written as "true_value if condition else false_value".  Of course, the "true_value", "condition" and "false_value" strings must be replaced with valid fields or expressions.  If this operator is inserted from the operator list (under comparisons), it will include parenthesis as placeholders.  These parenthesis are optional in the equations.&lt;br /&gt;
+&lt;br /&gt;
+The "join" text function is used to combine text from several other fields (or from child nodes). The first argument to the function is a separator string that is placed between each piece of text. The remaining argument(s) are the text to be joined.&lt;br /&gt;
+&lt;br /&gt;
+By default, math fields are shown in the data edit view, but they are read-only. To hide them, uncheck the "Show math fields in the Data Edit View" box under "Tools &amp;gt; General Options &amp;gt; Features Available".&lt;br /&gt;
+&lt;br /&gt;
+There is also an option under "File &amp;gt; Properties" that toggles whether blank fields are treated as zeros. If checked (the default), a blank field that is referenced by a math field has a value of zero (for numeric operations) or blank (for text operations). If unchecked, any blank references also cause equations that reference them to be blank.&lt;br /&gt;
+</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="numbering_type">
+<Name>Numbering Type</Name>
+<Text>This type (not to be confused with the number type above) provides fields that are automatically filled in with the "Data &amp;gt; Update Numbering" command. The "Format Help" button in the field format dialog shows the output format options. A single format level will result in a simple sequential numbering scheme. Use of the "/" level separator will result in an outline-type numbering with different sequences at different levels. Use of the "." section separator will result in a "2.3.5" type numbering scheme.&lt;br /&gt;
+&lt;br /&gt;
+Since numbering fields are automatically populated, by default they are not shown in the data edit view.  To show them, check the "Show numbering fields in the Data Edit View" box under "Tools &amp;gt; General Options &amp;gt; Features Available".  When they are shown in the data edit view, they show up in section numbering style, regardless of the output format.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="regular_expression_type">
+<Name>Regular Expression Type</Name>
+<Text>This type allows arbitrary format strings to be matched that restrict the data to a particular format. It uses Python regular expression syntax. Entries in the data editor which do not match the format string expression will cause a blue triangle to show in the upper left corner of the edit box, and the output for that field will be replaced with "#####".</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="output_formatting_details">
+<Name>Output Formatting Details</Name>
+<HEAD_PARA item="y" uniqueid="output_format_examples">
+<Name>Output Format Examples</Name>
+<Text>Here is an example of output formatting for a book list:&lt;br /&gt;
+&lt;br /&gt;
+"{*Title*}"&lt;br /&gt;
+(c) {*Copyright*}, Rating: {*Rating*}&lt;br /&gt;
+{*PlotDescription*}&lt;br /&gt;
+&lt;br /&gt;
+Each of the field names in enclosed in {* *}, curly brackets and asterisks.  For more examples, see the sample files that can be opened using the "File &amp;gt; Open Sample" command.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="title_formats">
+<Name>Title Formats</Name>
+<Text>When a node in the tree is renamed, the program attempts to match the title formatting pattern to set the appropriate fields (the same title matching occurs when editing lines in the "Title List" view). If the title formatting is too complex, it may not correctly guess the intent. Things like adjacent fields with no characters separating them should be avoided unless you do not wish to rename nodes from the tree.&lt;br /&gt;
+&lt;br /&gt;
+If the text data used for a tree view title has multiple lines, only the first line will be used as the title.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="skipped_output_lines">
+<Name>Skipped Output Lines</Name>
+<Text>If a line in the output formatting contains one or more fields and all of those fields for a given node are empty, the line is skipped. No blank line or embedded text will be output for that line. Note that this does not apply to a line without any fields (only embedded text). Also, when a line ending with a &amp;lt;br/&amp;gt; or an &amp;lt;hr/&amp;gt; tag is skipped, the ending tag is retained.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="html_tags">
+<Name>HTML Tags</Name>
+<Text>By default, the "Allow HTML rich text in formats" option is unchecked  in the "Type Config"  tab of the Configure Types Dialog.  So any HTML tags are treated as plain text.  If the option is enabled, simple HTML formatting tags can be used in node output formats.&lt;br /&gt;
+&lt;br /&gt;
+Commonly used tags include "&amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt;", "&amp;lt;u&amp;gt;underline&amp;lt;/u&amp;gt;", "line break&amp;lt;br/&amp;gt;", "horizontal line&amp;lt;hr/&amp;gt;", and various font tags. Complex block tags should generally be avoided.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="other_field_references">
+<Name>Other Field References</Name>
+<Text>References to fields that are not contained within the node can be added to the output. Pushing the "Show Advanced" button on the "Output" tab of the configure dialog makes a reference level selection become visible.&lt;br /&gt;
+&lt;br /&gt;
+If the reference level is changed to "File Info Reference", fields containing file meta-data can be added to the output. These include the file name, path, size, modified day and modified time. A field referencing the node's unique ID is also included here.  These special fields are shown as "{*!field_name*}" in the title and output format editors.&lt;br /&gt;
+&lt;br /&gt;
+There are field references to various ancestor nodes (parents, grandparents, etc.). These require the data type of the reference to be specified. This selection determines the field names that are available, but the data from any type with a matching field name will be shown in the output. References to fields from parent and grandparent nodes are shown as "{**field_name*}" and "{***field_name*}", respectively. There are also general ancestor references, shown as "{*?field_name*}", that take data from the closest ancestor with a matching field.&lt;br /&gt;
+&lt;br /&gt;
+References to child nodes can also be added. These also require that the child data type be specified. The child data becomes embedded in the parent output. The child data is delimited with a separator string defined on the "Type Config" tab (with show advanced active). The separator defaults to a comma and a space, but can be set to &amp;lt;br/&amp;gt; or anything else.&lt;br /&gt;
+&lt;br /&gt;
+Finally, a "Child Count" reference can be added. This field will show the number of children ("Level1" field) or grandchildren ("Level2" field) of a node. These are shown as {*#Level1*} in the format editors.&lt;br /&gt;
+&lt;br /&gt;
+For examples of these fields, see the "sample_other_fields" file (by using the "File &amp;gt; Open Sample" command).</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="type_format_details">
+<Name>Type Format Details</Name>
+<HEAD_PARA item="y" uniqueid="unique_ids">
+<Name>Unique IDs</Name>
+<Text>Every node has a Unique ID string associated with it. The IDs are used for addresses in internal links and in other places where TreeLine needs to identify a particular node.By default, the text in the first field is used to generate the ID. This can be changed in the "Type Config" tab of the "Data &amp;gt; Configure Types Dialog". Click the "Show Advanced" button to see the "Unique ID Reference Field" setting. &lt;br /&gt;
+&lt;br /&gt;
+To create the Unique ID, text in the reference field is modified by removing spaces and other special characters, shortening long entries, and adding extra characters if required to be unique in the file. If the content of the reference field changes, the Unique ID is updated, along with any links that reference it.&lt;br /&gt;
+&lt;br /&gt;
+The Unique IDs can be shown in the data edit view by checking the "Show node unique IDs in the Data Edit View" box under "Tools &amp;gt; General Options &amp;gt; Features Available". </Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="generic_and_derived_types">
+<Name>Generic and Derived Types</Name>
+<Text>Data types can be set to derive their field settings from a generic type. This allows types with different output formatting to always use the same set of fields. Any changes to the generic's list of fields and field types are automatically reflected in the fields of all derived types. This does not apply to a field's output formatting, which can still be set independently.&lt;br /&gt;
+&lt;br /&gt;
+There are two methods for creating derived types. First, a derived option can be selected when copying a type on the "Type List" tab of the "Data &amp;gt; Configure Types Dialog". Alternately, a generic type can be specified from the derived type's "Type Config" tab of the dialog if the advanced functions are shown.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="conditional_types_1">
+<Name>Conditional Types</Name>
+<Text>Conditional expressions can be used to automatically assign a data type based on each node's content. Conditions can be assigned only to a generic type and its associated derived types. This allows the automatic assignment of different output formatting or different icons depending on each node's field data.&lt;br /&gt;
+&lt;br /&gt;
+The conditional dialog box is accessed from a button on the "Type Config" tab of the "Data-&amp;gt;Configure Types Dialog" if the advanced functions are shown. Each line of the condition includes a field, an operator and a comparison value. The operators include equality, greater than, less than, starts with, ends with, and contains. There are also True and False operators that will toggle the type of all nodes simultaneously.&lt;br /&gt;
+&lt;br /&gt;
+For special field types such as dates, times, and booleans, the comparison value should be entered in the same format that is used in the Data Editor window. In general, the starts with, ends with, and contains operators should not be used for these special fields, since the comparison is done using an internal data representation. Dates and times also support a special comparison value of "now", which is always interpreted as the current date and time.&lt;br /&gt;
+&lt;br /&gt;
+The "Add New Rule" button is used to add additional condition lines. The lines can be joined with "and" or "or" operators. The "Remove Rule" button deletes the last condition line. If only a single line is present, the "Remove Rule" button completely removes the condition.&lt;br /&gt;
+&lt;br /&gt;
+Conditions do not have to be set for all types in a family. If no conditions are true for a node, the program will select a blank condition over a false one.&lt;br /&gt;
+&lt;br /&gt;
+For an example, see the "sample_conditional_todo" file (by using the "File &amp;gt; Open Sample" command).</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="copying_formats">
+<Name>Copying Formats</Name>
+<Text>Another method for changing data type formatting is to copy the formats from another TreeLine file. This is done with the "Data &amp;gt; Copy Types from File" command. All types from the chosen file are copied. Any types in the current file with matching names are overwritten, but types with unique names are retained.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="tree_data_operations">
+<Name>Tree Data Operations</Name>
+<HEAD_PARA item="y" uniqueid="sorting_1">
+<Name>Sorting</Name>
+<Text>The "Data &amp;gt; Sort Nodes" command can sort nodes based on either node titles or key fields predefined in the node type configuration. The predefined sort fields can be changed in the "Field Config" tab of the Configure Types Dialog. The "Sort Keys" button brings up a list of fields that define a sort key sequence.  The fields higher in the sequence have a higher priority.  The direction for each key field can be flipped.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="numbering_1">
+<Name>Numbering</Name>
+<Text linkcount="1">The "Data &amp;gt; Update Numbering" command updates the contents of fields with a special numbering field type. The field's output format defines how the numbers are displayed in the output, including whether individual numbers, outline numbers or a section numbering scheme are shown. See the &lt;a href="#numbering_type"&gt;Numbering Field Type&lt;/a&gt; for more information.&lt;br /&gt;
+&lt;br /&gt;
+Note that numbering fields are not shown in the data edit view unless "Show numbering fields in the Data Edit View" is checked under "Tools &amp;gt; General Options &amp;gt; Features Available". When they are shown in the data edit view, they show up in section numbering style, regardless of the output format.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="find_and_replace">
+<Name>Find and Replace</Name>
+<Text>The "Tools &amp;gt; Find and Replace" command can be used to change the text in several nodes. The search text and replacement text are entered. Searching can be based on any match, full words only, or a Python regular expression. The operation can optionally be restricted to a particular node type and to a particular node field.&lt;br /&gt;
+&lt;br /&gt;
+Replacement using regular expressions is quite powerful. Searching for ".*" will match all of the text in the field. The replacement string can contain back references that consist of a backslash and a number. The back references get replaced with the corresponding parenthesized group from the match. For example, "\2" will be replaced with the text that matched the second group of parenthesis. The "\g&amp;lt;0&amp;gt;" back-reference can be used to substitute the entire matching string.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="spell_check_3">
+<Name>Spell Check</Name>
+<Text linkcount="1">There is a spell check command in the "Tools" menu. Use of this command requires an external program to be installed (either aspell, ispell or hunspell- see the &lt;a href="#system_requirements"&gt;System Requirements&lt;/a&gt; section). If there are any misspelled words in the selected branch, a dialog will allow the word to be ignored, added to the dictionary, replaced with a suggestion or edited. This will spell check the text in all data fields of each node.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="category-based_arrangement">
+<Name>Category-Based Arrangement</Name>
+<Text>The "Data" menu contains commands for arranging and flattening the data by category and by internal links. These methods are used to automatically add and remove levels of nodes below the current node in the tree.&lt;br /&gt;
+&lt;br /&gt;
+The "Add Category Level" command allows you to select one or more of the fields that the child nodes have in common. These fields are used to create new parent nodes for the children, grouping them by common categories. For example, in a list of books, picking the "author_first_name" and "author_last_name" fields will result in a tree with the books under new nodes for each unique author.&lt;br /&gt;
+&lt;br /&gt;
+The "Flatten by Category" command is almost the opposite of "Add Category Level". It eliminates any descendant nodes with children, transferring their data fields to their children. It will rename fields instead of overwriting data with the same field names, but this command is most useful when the children and parents are different types with unique field names.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="link-based_arrangement">
+<Name>Link-Based Arrangement</Name>
+<Text>The "Data &amp;gt; Flatten by Link" command will move all descendant nodes directly under a root node in a flat structure.  It will add an internal link field to each node that points to the node's former parent.&lt;br /&gt;
+&lt;br /&gt;
+The "Data &amp;gt; Arrange by Link" command does the opposite, placing each node under a parent node that is referenced by an internal link field.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="printing_1">
+<Name>Printing</Name>
+<HEAD_PARA item="y" uniqueid="print_setup">
+<Name>Print Setup</Name>
+<Text>The dialog for print setup contains four tabs. The first, General Options, includes settings for what part of the tree to print, whether to include lines to child nodes and whether to allow page breaks between a parent an its first child node. The second tab, Page Setup, includes paper size, orientation, margins and columns. The third tab selects the font for printing. The last tab, Header/Footer, defines text and file data meta-fields for inclusion in headers and footers.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="print_preview">
+<Name>Print Preview</Name>
+<Text>The Print Preview window shows how the printout will look with current print settings.  It can be dragged larger to show more detail, or the zoom settings can be changed.  It also includes buttons for the Print Setup dialog and for printing.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="print_to_pdf">
+<Name>Print to PDF</Name>
+<Text>This command prompts for a path and file name to export a PDF file.  It uses the current printer settings.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="file_handling_1">
+<Name>File Handling</Name>
+<HEAD_PARA item="y" uniqueid="file_compression">
+<Name>File Compression</Name>
+<Text>A TreeLine file is in an XML text format. There are also options to work with compressed files (gzip format) to save storage space. Individual files can be set to compressed mode from either "File &amp;gt; Properties" or from the file type pull-down in the save-as dialog.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="file_encryption">
+<Name>File Encryption</Name>
+<Text>There is a file encryption option to password protect TreeLine files. Individual files can be set to encrypted mode from either "File &amp;gt; Properties" or from the file type pull-down in the save-as dialog. The encryption uses an SHA hash function as a stream cipher - it should be fairly secure.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="auto-save">
+<Name>Auto-Save</Name>
+<Text>An auto-save feature can store unsaved files with a "~" appended to the file name. The backup files are automatically removed when the file is saved or TreeLine exits cleanly. The auto-save time interval is set in the general options. Setting the interval to zero disables this feature.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="saved_tree_states">
+<Name>Saved Tree States</Name>
+<Text>When opening a recently used file, TreeLine will restore the states of open and selected nodes. This information is stored in the user's TreeLine configuration files. If desired, this feature can be disabled with a general option.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="file_import">
+<Name>File Import</Name>
+<HEAD_PARA item="y" uniqueid="general_information">
+<Name>General Information</Name>
+<Text>A TreeLine file is in a specific XML text format. Other types of files can be imported using the "File &amp;gt; Import" command, which will show a dialog box where the type of import can be selected.  Alternatively, using the "File &amp;gt; Open" command with a non-TreeLine file will also show this dialog.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="text_import">
+<Name>Text Import</Name>
+<Text>There are four different text formats that can be selected for import.  Tab indented text creates a node title from each line in the file, structured based on the number of tabs before each line.  A tab delimited text table uses the first line as a header row to create field names, then each additional row becomes a node with field data taken from each column. The plain text, one node per line import creates a flat tree of node titles.  Finally, the plain text paragraph import creates long text nodes from text separated by blank lines.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="treepad_import">
+<Name>Treepad Import</Name>
+<Text>Files from the Treepad shareware program can be imported. Only Treepad text nodes are supported.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="xml_import">
+<Name>XML Import</Name>
+<Text>TreeLine will import and export generic XML files. These routines do not have much intelligence - each XML element becomes a node and each XML attribute becomes a field. XML text content become fields named "Element_Data". This lets TreeLine function as a crude XML editor.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="odf_import">
+<Name>ODF Import</Name>
+<Text>TreeLine will import Open Document Format (ODF) text documents, from applications such as Apache OpenOffice and LibreOffice. The node structure is formed based on the heading styles assigned in the document. Any text under each heading is assigned to that heading's node. The import filter is intended for simple text outlines only. No formatting is maintained, and objects such as tables and pictures are not imported.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="bookmarks_import">
+<Name>Bookmarks Import</Name>
+<Text>TreeLine will import bookmark files in both the Mozilla HTML format (Firefox browser) and the XBEL format (Konqueror, Galeon and Elinks browsers). Each bookmark becomes a node with a name and a link field. Some information in the files, such as visited dates and icon references, is not imported. For an example, see the "sample_bookmarks" file (by using the "File &amp;gt; Open Sample" command).&lt;br /&gt;
+</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="file_export">
+<Name>File Export</Name>
+<HEAD_PARA item="y" uniqueid="general_information_1">
+<Name>General Information</Name>
+<Text>Files are exported using the "File &amp;gt; Export" command. This will show a dialog box of available export types and options.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="html_export_1">
+<Name>HTML Export</Name>
+<Text>The HMTL export subtypes can export to a single page or to multiple pages.  The single page export contains all of the indented output.  A navigation pane on the left with links to anchors at node positions is optional.&lt;br /&gt;
+&lt;br /&gt;
+The multiple HTML pages export has one web page per node.  It includes a navigation pane on the left with links to the pages with sibling, parent and aunt/uncle nodes.&lt;br /&gt;
+&lt;br /&gt;
+Multiple HTML data tables export creates a table in each HTML file that contains the data for a set of siblings, as well as links to the parent and child pages.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="text_export">
+<Name>Text Export</Name>
+<Text>Data can be exported to tabbed title text and tab-delimited tables. These formats are the same as the corresponding import formats. When exporting to a table, only the first level of children is used, so you may wish to flatten the data before exporting.&lt;br /&gt;
+&lt;br /&gt;
+There is also an unformatted text export the dumps all of the output into a text file without preserving the tree structure.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="xml_export">
+<Name>XML Export</Name>
+<Text>TreeLine will import and export generic XML files. These routines do not have much intelligence - each node becomes an XML element and each field becomes an XML attribute, except for fields named "Element_Data" that become the element's text. This lets TreeLine function as a crude XML editor.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="odf_export">
+<Name>ODF Export</Name>
+<Text>TreeLine will export an outline to an Open Document Format (ODF) text document, compatible with Apache OpenOffice and LibreOffice. The title of each node is assigned a heading style at the appropriate level. Any other text in the output of each node becomes normal text under the heading. The export filter is intended for simple text outlines only. Any HTML formatting is stripped, and objects such as tables and pictures are not supported.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="bookmarks_export">
+<Name>Bookmarks Export</Name>
+<Text>TreeLine will export bookmark files in both the Mozilla HTML format (Firefox browser) and the XBEL format (Konqueror, Galeon and Elinks browsers). TreeLine will look for a link field in each node that becomes the target of the bookmark.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="customizations">
+<Name>Customizations</Name>
+<HEAD_PARA item="y" uniqueid="options">
+<Name>Options</Name>
+<Text>TreeLine's behavior can be modified with several settings available in "Tools &amp;gt; General Options". Most of these options are covered elsewhere in this document.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="keyboard_shortcuts_1">
+<Name>Keyboard Shortcuts</Name>
+<Text>Keyboard shortcuts can be customized by using the "Tools &amp;gt; Set Keyboard Shortcuts" command. Simply type the new key sequence with the appropriate field selected.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="toolbars">
+<Name>Toolbars</Name>
+<Text>An editor to customize the toolbars is available from "Tools &amp;gt; Customize Toolbars". The number of toolbars can be set, and the buttons on each can be defined.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="fonts_1">
+<Name>Fonts</Name>
+<Text>Fonts used in the tree views, the output view and the editor views can be set in the "Tools &amp;gt; Customize Fonts" menu.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="tree_icons">
+<Name>Tree Icons</Name>
+<Text>There is an icons directory in the user configuration directory ("~/.treeline-x.x/icons" on Linux, "Users\&amp;lt;user&amp;gt;\AppData\roaming\bellz\treeline-x.x\icons" on Windows). Image files (PNG or BMP) placed into this directory are available for use as tree icons.</Text>
+</HEAD_PARA>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="plugins_1">
+<Name>Plugins</Name>
+<HEAD_PARA item="y" uniqueid="description">
+<Name>Description</Name>
+<Text>TreeLine has an interface for plugin extension modules. This allows extensions to be written by various programmers to provide features needed by a few users without adding bloat to the main application. The plugins can add new menu items, access and modify TreeLine data, and read and write TreeLine Files.&lt;br /&gt;
+&lt;br /&gt;
+Currently available plugins are listed on the "Downloads" page of the TreeLine web site.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="installation_1">
+<Name>Installation</Name>
+<Text>The plugins are installed by copying their Python file (*.py) to a plugins directory. This can be a directory in the TreeLine installation ("&amp;lt;prefix&amp;gt;/share/treeline/plugins/" on Linux or "TreeLine-2\plugins\" under the Program Files or Application Data folders on Windows) or in the user configuration directory ("~/.treeline-2.x/plugins/" on Linux, "Documents and Settings\&amp;lt;user&amp;gt;\Application Data\bellz\treeline-2.x\plugins\" on Windows). A list of loaded plugins can be found using the "Help &amp;gt;About Plugins" command.</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="programming_interface">
+<Name>Programming Interface</Name>
+<Text>Information needed to write new plugins can be found in the "plugininterface.py" file in the TreeLine source code.</Text>
+</HEAD_PARA>
+</HEADINGS>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="revision_history">
+<Name>Revision History</Name>
+<HEADINGS item="y" uniqueid="october_3_2015_-_release_202_new_stable">
+<Name>October 3, 2015 - Release 2.0.2 (new stable release)</Name>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_8">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="data_edit_regression">
+<Name>Data edit regression</Name>
+<Text>Fixed a major regression in 2.0.1 that broke data editors for most specialized field types (number, math, boolean, choice, etc.)</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="compatibility_notes_2">
+<Name>Compatibility Notes</Name>
+<BULLETS item="y" uniqueid="file_format_2">
+<Name>File format</Name>
+<Text>There are some file format changes between TreeLine 1.4.x and this version of TreeLine.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_conversion_2">
+<Name>File conversion</Name>
+<Text>Older files opened in this version are automatically converted when saved.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_compatibility_2">
+<Name>File compatibility</Name>
+<Text>Files saved in this version may not be fully compatible with TreeLine 1.4.x.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="september_26_2015_-_release_201_new_stable">
+<Name>September 26, 2015 - Release 2.0.1 (new stable release)</Name>
+<BULLET_HEADING item="y" uniqueid="updates_9">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="plugin_options">
+<Name>Plugin options</Name>
+<Text>Added methods to the plugin interface that allow general program options to be queried and changed.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="table_import_errors">
+<Name>Table import errors</Name>
+<Text>Improve text table import error messages by including the line number where the problem is found.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_7">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="data_edit_undo">
+<Name>Data edit undo</Name>
+<Text>Reduce the amount of work that a single undo command removes from editors in the data edit view.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="configuration_changes">
+<Name>Configuration changes</Name>
+<Text>Fixed a bug that prevented setting the unique ID reference field on a newly created data type.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="legacy_newline_convert">
+<Name>Legacy newline convert</Name>
+<Text>Preserve hard newlines in text fields when converting TreeLine 1.4.x files to this version.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="indent_expand_status">
+<Name>Indent expand status</Name>
+<Text>Fix problems preserving expand/collapse node states when indenting and unindenting nodes.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="may_17_2015_-_release_200_new_stable_release">
+<Name>May 17, 2015 - Release 2.0.0 (new stable release)</Name>
+<BULLET_HEADING item="y" uniqueid="updates_8">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="treepad_import_update">
+<Name>Treepad import update</Name>
+<Text>Modified the Treepad file import to use SpacedText fields to more closely match Treepad formatting.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="treepad_export">
+<Name>Treepad export</Name>
+<Text>An optional plugin was written that can export files to the Treepad text file format.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="new_icon">
+<Name>New icon</Name>
+<Text>The TreeLine icon was replaced with a new one.  Thanks to David Reimer for contributing the artwork.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="translation_updates">
+<Name>Translation updates</Name>
+<Text>The German and Portuguese GUI translations were updated.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="sample_file_updates">
+<Name>Sample file updates</Name>
+<Text>Updated the long text sample file to include the SpacedText field type, and added a conditional equation to the math sample file.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="documentation_update">
+<Name>Documentation update</Name>
+<Text>Updated the Math Field section of the documentation.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="compatibility_notes">
+<Name>Compatibility Notes</Name>
+<BULLETS item="y" uniqueid="file_format">
+<Name>File format</Name>
+<Text>There are some file format changes between TreeLine 1.4.x and this version of TreeLine.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_conversion">
+<Name>File conversion</Name>
+<Text>Older files opened in this version are automatically converted when saved.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_compatibility_1">
+<Name>File compatibility</Name>
+<Text>Files saved in this version may not be fully compatible with TreeLine 1.4.x.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="march_29_2015_-_release_197_unstable">
+<Name>March 29, 2015 - Release 1.9.7 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_6">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="math_field_conditions">
+<Name>Math field conditions</Name>
+<Text>Added comparison operators and conditional if statements to math field equations. The operators can be used with a new boolean result type, or as a part of numeric, date, time or text expressions.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_field_text_operations">
+<Name>Math field text operations</Name>
+<Text>Text operators were made available in math field equations, and the result type can be set to text. This allows math fields to combine text from other fields, replace substrings and change capitalization.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_7">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="saved_status_bar_message">
+<Name>Saved status bar message</Name>
+<Text>Added a "file saved" status bar message.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="german_translation">
+<Name>German translation</Name>
+<Text>Added a German GUI translation.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="portuguese_translation_1">
+<Name>Portuguese translation</Name>
+<Text>Updated the Portuguese GUI translation.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_6">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="combination_editor_1">
+<Name>Combination editor</Name>
+<Text>Fixed a focus problem that made Combination and AutoCombination field editor pull-downs unusable.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="choice_editor">
+<Name>Choice editor</Name>
+<Text>Fixed a focus problem that made the pull-downs in choice and boolean field editors unusable on Linux.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="march_10_2015_-_release_196_unstable">
+<Name>March 10, 2015 - Release 1.9.6 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_5">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="onelinetext_field">
+<Name>OneLineText field</Name>
+<Text>Added a new OneLineText field type that restricts the text length to a single line.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="all_types_conditional_test">
+<Name>All Types conditional test</Name>
+<Text>Added an All Types option to the conditional find and filter commands. This allows multiple node types to be found or filtered at the same time. The fields from every type are available for use in conditions. The conditions give a false result for all node types that do not contain that field name.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_field_dates_and_times">
+<Name>Math field dates and times</Name>
+<Text>Added support for date and time calculations using math fields. Math equation result types can be set to numeric, date or time output. Date fields can be subtracted to give the number of days elapsed, and numbers of days can be added to or subtracted from dates, resulting in new dates. Time fields can be subtracted to give the number of seconds elapsed, and numbers of seconds can be added to or subtracted from times, resulting in new times.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_field_root_references">
+<Name>Math field root references</Name>
+<Text>In math fields, added an equation reference level to reference fields in the root node. This provides a place for "constant" field values that can be referenced from any node but only need to be changed in one location.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="plugin_interface">
+<Name>Plugin interface</Name>
+<Text>Support was added for plugin extension modules. Most of the interface methods from TreeLine 1.4.x were duplicated to ease porting of old plugins. Of course, old plugins must be ported from Python 2.x to Python 3.x, and there are multi-window implementation differences. New interfaces allow the creation of new field types and the execution of any menu command. Sample plugins are available on the TreeLine download page.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="automatic_html_tags">
+<Name>Automatic HTML tags</Name>
+<Text>Added text formatting and link commands for HTML fields that add tags to the HTML content.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="open_in_folder">
+<Name>Open in folder</Name>
+<Text>An open in folder command was added to external link field editors to open the directory in a file manager.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="select_all_command">
+<Name>Select All command</Name>
+<Text>Added the Select All command to global menus with a different default shortcut key (ctrl-L) to avoid conflicts with the add child shortcut.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_6">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="data_edit_view_focus">
+<Name>Data edit view focus</Name>
+<Text>Improved the focus handling for data edit view edit boxes. This eliminates the blue outline for boxes in inactive data edit views. It also makes tab-to-focus more predictable, including fully selecting single-line field types when they receive tab focus.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="data_editor_resize">
+<Name>Data editor resize</Name>
+<Text>Data edit boxes are now automatically resized when editing is complete and the focus moves to another row.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="drag_external_links">
+<Name>Drag external links</Name>
+<Text>Allow files to be drag &amp;amp; dropped on data edit boxes to create external links.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="stay-on-top_dialogs">
+<Name>Stay-on-top dialogs</Name>
+<Text>Small, non-modal dialogs, such as those for sorting, numbering, finding and filtering, have been set to stay on top, so they won't be obscured by TreeLine windows.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="opening_external_links">
+<Name>Opening external links</Name>
+<Text>Made opening associated programs from external file links more consistent, especially in Linux.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="copy_types_from_file">
+<Name>Copy types from file</Name>
+<Text>The copy types from file command now supports encrypted and compressed files.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="wait_cursors">
+<Name>Wait cursors</Name>
+<Text>Added wait cursors to TreeLine operations that could be time consuming.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="context_menus">
+<Name>Context menus</Name>
+<Text>Improved the consistency of context menus and shortcut commands used in edit boxes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="portuguese_translation">
+<Name>Portuguese translation</Name>
+<Text>Added a nearly complete Portuguese GUI translation.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="sample_file_languages">
+<Name>Sample file languages</Name>
+<Text>Added support for sample TreeLine files to be provided in alternate languages.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="documenation_translation">
+<Name>Documentation translation</Name>
+<Text>Prepared the help file for translation into other languages,</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_5">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="duplicate_unique_ids">
+<Name>Duplicate unique IDs</Name>
+<Text>Corrupted TreeLine files with the same unique ID assigned to multiple nodes no longer fail to open. The user is warned that unique IDs have been updated, which could break some internal links.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_field_list">
+<Name>Conditional field list</Name>
+<Text>Fixed missing fields in the pull-down list in the conditional find and filter dialog boxes when a rule was re-used after a node type change. </Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_field_missing_references">
+<Name>Math field missing references</Name>
+<Text>Fixed problems with math fields that reference non-existing fields in parent or child nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="math_field_type_updates">
+<Name>Math field type updates</Name>
+<Text>Made math fields update properly after node type changes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="rename_bullettable_fields">
+<Name>Rename bullet/table fields</Name>
+<Text>Fixed inconsistent updates after renaming fields used with bulleted or tabled output.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="copying_descendants">
+<Name>Copying descendants</Name>
+<Text>Made node copy-paste and drag-and-drop work when the initial selection includes both parent and child nodes. </Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="tabbed_text_import_1">
+<Name>Tabbed text import</Name>
+<Text>When importing a tabbed text file with multiple top-level nodes, create a single higher-level node to prevent failure.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="custom_toolbar_dialog">
+<Name>Custom toolbar dialog</Name>
+<Text>Fixed the availability of the move up button in the customize toolbar dialog when the second command in the list is selected.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="december_31_2014_-_release_195_unstable">
+<Name>December 31, 2014 - Release 1.9.5 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_4">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="math_field_type">
+<Name>Math field type</Name>
+<Text>Added a math field type that is configured by defining an equation. The field value is automatically calculated based on references to numerical values in other nodes. See the "sample_math_fields" file for a usage example.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="clear_formatting">
+<Name>Clear formatting</Name>
+<Text>Added a Clear Formatting command that removes font changes and links from data editor text.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="gui_translations">
+<Name>GUI Translations</Name>
+<Text>Made source code changes necessary to support user interface translations into other languages.  The actual translation work remains to be done.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_5">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="combination_field_scroll_bars">
+<Name>Combination field scroll bars</Name>
+<Text>Add scroll bars to the pull-down editors for combination fields with many entries.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="external_link_truncation">
+<Name>External link truncation</Name>
+<Text>Reduce the truncation of external link URLs when generating default display names.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="file_newlines">
+<Name>File newlines</Name>
+<Text>Use Unix-style newlines for saved TreeLine files to keep files consistent across platforms.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="html_panes">
+<Name>HTML panes</Name>
+<Text>Update the CSS code in exported HTML with navigation panes to improve the appearance in some browsers.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="undo_optimization">
+<Name>Undo optimization</Name>
+<Text>Optimize some undo information to reduce the amount of data in memory.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="move_sample_files">
+<Name>Move sample files</Name>
+<Text>Move sample files into a separate directory to avoid future translation conflicts.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="installer_clarification">
+<Name>Installer clarification</Name>
+<Text>Clarify a Linux installer error message when checking for the Python 3 version of PyQt.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="include_msvc_files">
+<Name>Include MSVC files</Name>
+<Text>Include MSVCR DLL files in the Windows installer.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_4">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="applying_config_dialog_settings">
+<Name>Applying config dialog settings</Name>
+<Text>Fix problems applying multiple configuration changes while the Configure Data Types dialog box remains open.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="title_list_line_split">
+<Name>Title list line split</Name>
+<Text>In the Title List editor, splitting a title into two lines now creates a new node without losing the children and parameters of the original node.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="title_list_undo">
+<Name>Title list undo</Name>
+<Text>Fix the undo command in the Title List View so that deleted lines/nodes are properly restored. </Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="sorting_by_fields">
+<Name>Sorting by fields</Name>
+<Text>When sorting nodes by fields, properly handle a reverse direction.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="find_and_replace_2">
+<Name>Find and replace</Name>
+<Text>Fix problems with the find and replace command when a particular node type is specified.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_types_2">
+<Name>Conditional types</Name>
+<Text>Fix problems defining conditional types from the Configure Data Types dialog box.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="apply_font_sizes">
+<Name>Apply font sizes</Name>
+<Text>Correctly apply font size formatting to selections with mixed font sizes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="editor_height">
+<Name>Editor height</Name>
+<Text>Fix the height of long text field editors with customized data editor fonts.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="base_64_image_export">
+<Name>Base 64 image export</Name>
+<Text>Fix HTML export of Base 64 images.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="march_8_2014_-_release_194_unstable">
+<Name>March 8, 2014 - Release 1.9.4 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_3">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="documentation">
+<Name>Documentation</Name>
+<Text>Created new documentation, including a TreeLine file with details and a text file with basic usage instructions. Both are accessible from the help menu.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="font_settings">
+<Name>Font settings</Name>
+<Text>Added customizing of default fonts used in the tree, output and editor views.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="spaced_text_field">
+<Name>Spaced text field</Name>
+<Text>Added a new SpacedText field type that holds plain text and preserves all spacing.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="combination_editor">
+<Name>Combination editor</Name>
+<Text>Combination and auto combination field types now use a simpler checkbox style pull-down editor.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="autosave_option">
+<Name>Autosave option</Name>
+<Text>An autosave option was added.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="unique_id_output">
+<Name>Unique ID output</Name>
+<Text>A unique ID reference field was added to the file info fields to allow node unique IDs to be included in output formats.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="paste_plain_text">
+<Name>Paste plain text</Name>
+<Text>A plain text paste command was added to paste non-formatted text to data editors.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="indent_option_1">
+<Name>Indent option</Name>
+<Text>Added an option to set the child indent offset amount.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_3">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="print_preview_size">
+<Name>Print preview size</Name>
+<Text>The last size and position of the print preview window are remembered and restored.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="page_breaks_in_nodes">
+<Name>Page breaks in nodes</Name>
+<Text>When printing, nodes with long text content are split between pages.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="export_relative_links">
+<Name>Export relative links</Name>
+<Text>In multiple page HTML exports, relative links in the content are adjusted based on the directory depth.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_3">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="blank_nodes">
+<Name>Blank nodes</Name>
+<Text>Fixed problems outputting completely blank nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_rules">
+<Name>Conditional rules</Name>
+<Text>Problems with the contains and true/false conditional rules were fixed.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="link_dialogs">
+<Name>Link dialogs</Name>
+<Text>Fixed issues displaying several editor link dialogs in quick succession.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="output_config_cursor">
+<Name>Output config cursor</Name>
+<Text>In the configure data types dialog, the output format cursor no longer moves when switching to other field references.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="january_19_2014_-_release_193_unstable">
+<Name>January 19, 2014 - Release 1.9.3 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_2">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="keyboard_shortcuts_2">
+<Name>Keyboard shortcuts</Name>
+<Text>Added controls in the Tools menu for customizing TreeLine's keyboard shortcuts.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="toolbars_1">
+<Name>Toolbars</Name>
+<Text>Controls for customizing TreeLine's toolbar buttons were added to the Tools menu.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_search">
+<Name>Conditional search</Name>
+<Text>New dialogs were created for conditional finding and filtering of nodes. Specific conditions can be applied to individual types and fields, and the conditions can be saved.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="find_and_replace_1">
+<Name>Find and replace</Name>
+<Text>Find and replace functionality was added to search and change nodes' text data. The search can be limited to specific types and fields.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="table_output">
+<Name>Table output</Name>
+<Text>A new option for output data in tables was added to the Type Config pane of the Configure Data Types dialog. Each line of the output format becomes a column. Any text at the start of the format line that is followed by a colon becomes a table heading.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="bullet_output">
+<Name>Bullet output</Name>
+<Text>An option to add bullets to the output of child nodes was added to the Type Config pane of the Configure Data Types dialog.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="toggle_selections_1">
+<Name>Toggle selections</Name>
+<Text>Added View &amp;gt; Previous Selection and Next Selection commands to step through the node selection history.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_2">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="drop_to_reorder">
+<Name>Drop to reorder</Name>
+<Text>Nodes can now be reordered by dragging and dropping them between sibling nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="date_entry_formats">
+<Name>Date entry formats</Name>
+<Text>The keyboard entry of dates and times into fields was made more flexible by allowing entries such as 4-digit years that don't exactly match the entry format.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="default_link_names">
+<Name>Default link names</Name>
+<Text>Any text selection is now used as the default name for links inserted into text fields.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="anchor_links">
+<Name>Anchor links</Name>
+<Text>Links to local named anchors in a node's HTML text content now work if they don't conflict with any node unique IDs.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="line_spacing">
+<Name>Line spacing</Name>
+<Text>Line spacing in output views was made more consistent.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="saved_states">
+<Name>Saved states</Name>
+<Text>Improved the efficiency of restoring node open/close states when opening files.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_2">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="paste_font_sizes">
+<Name>Paste font sizes</Name>
+<Text>Errors when pasting text with varying font sizes into data editors were fixed.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_data_types">
+<Name>Conditional data types</Name>
+<Text>Various issues with conditional data types were fixed, including problems with pasting conditional nodes and prompt updating when the types change.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="drag_undo">
+<Name>Drag undo</Name>
+<Text>Problems with undoing the dragging and dropping of a node were fixed.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="expand_branches">
+<Name>Expand branches</Name>
+<Text>Fix the extremely slow operation of the View &amp;gt; Expand Full Branch and Collapse Full Branch commands.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="printed_lines">
+<Name>Printed lines</Name>
+<Text>Fix improperly placed branch lines in printed output.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="october_22_2013_-_release_192_unstable">
+<Name>October 22, 2013 - Release 1.9.2 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features_1">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="spell_check_4">
+<Name>Spell check</Name>
+<Text>Added a spell check tool. This requires either aspell, ispell or hunspell to be installed.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="numbering_field_type">
+<Name>Numbering field type</Name>
+<Text>Included a node numbering field type with several formatting options. An update numbering command fills in the sequence.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="add_category_level">
+<Name>Add category level</Name>
+<Text>Added a command to add a category level based on a subset of data fields.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="flatten_by_category">
+<Name>Flatten by category</Name>
+<Text>Added a flatten by category command to combine parent fields into child nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="flatten_by_link">
+<Name>Flatten by link</Name>
+<Text>A new flatten by link command flattens the structure and provides internal links to the former parent nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="arrange_by_link">
+<Name>Arrange by link</Name>
+<Text>An arrange by link command restores the structure based on parent internal links.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="updates_1">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="url_drag-and-drop">
+<Name>URL drag-and-drop</Name>
+<Text>Allow file URL drag-and-drop on active external link data edit widgets.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="share_directory">
+<Name>Share directory</Name>
+<Text>Change the Linux installer to use the 'share' directory in place of 'lib' for python files.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="windows_binary">
+<Name>Windows binary</Name>
+<Text>Update the Windows binary to use version 3.3 of Python.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes_1">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="output_line_sequence">
+<Name>Output line sequence</Name>
+<Text>Fix out of sequence output lines when output formats are longer than ten lines.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="node_indenting">
+<Name>Node indenting</Name>
+<Text>Fix problems with unique IDs and internal links when indenting and unindenting nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="widget_focus_problems">
+<Name>Widget focus problems</Name>
+<Text>Avoid widget focus problems when editing data on conditional types.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="format_cursor_position">
+<Name>Format cursor position</Name>
+<Text>Maintain the output format cursor position when changing fields in the configure dialog.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="xml_import_1">
+<Name>XML import</Name>
+<Text>Fix importing of generic XML documents that have nodes with no data.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="may_2_2013_-_release_191_unstable_development">
+<Name>May 2, 2013 - Release 1.9.1 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="updates">
+<Name>Updates</Name>
+<BULLETS item="y" uniqueid="compression_and_encryption">
+<Name>Compression and encryption</Name>
+<Text>Added TreeLine file compression and file encryption, controlled from a File &amp;gt; Properties dialog box.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="restore_tree_states">
+<Name>Restore tree states</Name>
+<Text>Tree node open/close states are restored for recent files.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="derived_data_types">
+<Name>Derived data types</Name>
+<Text>Added derived data types that keep the field list of their generic type.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="conditional_type_setting">
+<Name>Conditional type setting</Name>
+<Text>Added conditional type setting that changes icons or output format based on field contents.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="other_field_references_1">
+<Name>Other field references</Name>
+<Text>Other field references (file info, ancestors, children) can be used in node output formats and in print headers &amp;amp; footers.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="html_file_export">
+<Name>HTML file export</Name>
+<Text>Added an HTML file export to a single file with a navigation pane on the side.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="embedded_blank_lines">
+<Name>Embedded blank lines</Name>
+<Text>Allow embedded blank lines in non-HTML node output formats.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="separator_config_option">
+<Name>Separator config option</Name>
+<Text>Added an output separator config option for combination fields and child references.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="first_day_of_week_option">
+<Name>First day of week option</Name>
+<Text>Add an option to set the first day of the week for calendar widgets.</Text>
+</BULLETS>
+</BULLET_HEADING>
+<BULLET_HEADING item="y" uniqueid="bug_fixes">
+<Name>Bug Fixes</Name>
+<BULLETS item="y" uniqueid="drag_multiple_nodes">
+<Name>Drag multiple nodes</Name>
+<Text>Fixed problems with pasting or dragging multiple nodes.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="remove_fields_from_multi-line_output_formats">
+<Name>Remove fields from multi-line output formats</Name>
+<Text>Made removing fields from multi-line output formats work properly.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="prevent_duplicate_unique_ids">
+<Name>Prevent duplicate unique IDs</Name>
+<Text>Prevent duplicate unique IDs from being created after undoing the deletion of a branch.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="fixed_non-text_nodes_sorting">
+<Name>Fixed non-text nodes sorting</Name>
+<Text>Fixed node sorting of non-text nodes (numbers, dates, times, etc.)</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="calendar_widgets">
+<Name>Calendar widgets</Name>
+<Text>Avoid placing calendar widgets partially off screen if near the bottom.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="automatic_cell_height">
+<Name>Automatic cell height</Name>
+<Text>Limit the automatic height increases for text edit cells to avoid confusing double scroll bars.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="february_6_2013_-_release_190_unstable">
+<Name>February 6, 2013 - Release 1.9.0 (unstable development snapshot)</Name>
+<BULLET_HEADING item="y" uniqueid="new_features">
+<Name>New Features</Name>
+<BULLETS item="y" uniqueid="full_python_3_rewrite">
+<Name>Full Python 3 rewrite</Name>
+<Text>TreeLine has been fully rewritten using Python 3.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="direct_model-view_and_elementtree">
+<Name>Direct model-view and ElementTree</Name>
+<Text>Improved performance due to direct use of model-view classes for views and ElementTree for input/output.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="table_based_data_editor_pane">
+<Name>Table based data editor pane</Name>
+<Text>A table based data editor pane (much faster).</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="wysiwyg_data_editor_view">
+<Name>WYSIWYG data editor view.</Name>
+<Text>WYSIWYG formatting in the data editor view.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="real-time_window_updates">
+<Name>Real-time window updates </Name>
+<Text>Real-time updates of the same file shown in multiple windows.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="improved_printing">
+<Name>Improved printing</Name>
+<Text>Improved printing and print preview performance.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="saves_print_options">
+<Name>Saves print options</Name>
+<Text>Saves print options with the TreeLine file.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="built-in_pdf">
+<Name>Built-in PDF</Name>
+<Text>Built-in print to PDF function.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="searching_options">
+<Name>Searching options.</Name>
+<Text>More searching options.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="filtering_command">
+<Name>Filtering command</Name>
+<Text>A filtering command shows matches in a simple list.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="saved_sorting_parameters">
+<Name>Saved sorting parameters</Name>
+<Text>Sorting parameters can be saved with each data type.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="basic_text_field_type">
+<Name>Basic text field type</Name>
+<Text>The basic text field type allows formatting, preserves line breaks and allows HTML restricted characters.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="calendar_widget">
+<Name>Calendar widget</Name>
+<Text>A calendar widget can be used for editing date fields.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="easy_internal_links">
+<Name>Easy internal links</Name>
+<Text>Internal link fields and inline internal links are easier to use.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="unified_external_links">
+<Name>Unified external links</Name>
+<Text>An external link type supports http, https, file and mailto protocols.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="support_relative_paths">
+<Name>Support relative paths</Name>
+<Text>Relative paths are supported for external links and pictures.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="regular_expression_field_type">
+<Name>Regular expression field type</Name>
+<Text>A regular expression field type can match patterns (phone numbers, email addresses, etc.)</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="node_ids_automatically_generated">
+<Name>Node IDs automatically generated</Name>
+<Text>Unique node IDs are automatically generated and updated.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="new_windows_installer">
+<Name>New windows installer</Name>
+<Text>A new windows installer allows a single-user, non-administrator install.</Text>
+</BULLETS>
+<BULLETS item="y" uniqueid="portable_installs">
+<Name>Portable installs</Name>
+<Text>Includes better support for portable installs.</Text>
+</BULLETS>
+</BULLET_HEADING>
+</HEADINGS>
+</HEADINGS>
+<HEADINGS item="y" uniqueid="contacts">
+<Name>Contacts</Name>
+<HEAD_PARA item="y" uniqueid="mailing_list">
+<Name>Mailing list</Name>
+<Text>There is a low-volume mailing list for users to discuss anything and everything about TreeLine. This is the place for development discussions (from roadmaps to feature suggestions to beta testing), release announcements, bug reports, and general user discussions (from new uses to tips &amp;amp; tricks to configuration samples).&lt;br /&gt;
+&lt;br /&gt;
+To subscribe, go to &lt;a href="https://lists.sourceforge.net/lists/listinfo/treeline-users"&gt;lists.sourceforge.net/lists/listinfo/treeline-users&lt;/a&gt;&lt;br /&gt;
+</Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="email">
+<Name>Email</Name>
+<Text>If you do not wish to subscribe to the mailing list, I can be contacted by email at: doug101 AT bellz DOT org </Text>
+</HEAD_PARA>
+<HEAD_PARA item="y" uniqueid="updates_4">
+<Name>Updates</Name>
+<Text>I welcome any feedback, including reports of any bugs you find. Also, you can periodically check back to &lt;a href="http://treeline.bellz.org"&gt;treeline.bellz.org&lt;/a&gt; for any updates.</Text>
+</HEAD_PARA>
+</HEADINGS>
+</HEADINGS>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CATEGORY childtype="PERSON" item="y" line0="{*Type*}" line1="{*Type*}" tlversion="1.9.0" uniqueid="Main">
+<Type idref="y" type="Text">Main</Type>
+<CATEGORY item="y" uniqueid="Friends">
+<Type>Friends</Type>
+<PERSON item="y" line0="{*FirstName*} {*LastName*}" line1="{*FirstName*} {*LastName*}" line2="{*Street*}" line3="{*City*}, {*State*} {*Zip*}" line4="{*HomePhone*} (H)" line5="{*WorkPhone*} (W)" line6="{*MobilePhone*} (M)" line7="DoB: {*Birthday*}" line8="{*Email*}" uniqueid="John">
+<FirstName idref="y" sortkeynum="2" type="Text">John</FirstName>
+<LastName sortkeynum="1" type="Text">Doe</LastName>
+<Street type="Text">1492 Columbus Lane</Street>
+<City type="Text">Atlantis</City>
+<State type="Text">CA</State>
+<Zip type="Text">98765</Zip>
+<HomePhone type="Text">(123) 555-4567</HomePhone>
+<WorkPhone type="Text">(123) 555-9876</WorkPhone>
+<MobilePhone type="Text" />
+<Birthday format="MMMM d, yyyy" type="Date" />
+<Email type="Text">john.doe@nowhere.com</Email>
+</PERSON>
+</CATEGORY>
+<CATEGORY item="y" uniqueid="Family">
+<Type>Family</Type>
+<PERSON item="y" uniqueid="Jane">
+<FirstName>Jane</FirstName>
+<LastName>Roe</LastName>
+<Street>1812 War Lane</Street>
+<City>Britania</City>
+<State>NM</State>
+<Zip>87560</Zip>
+<HomePhone>(123) 490-4909</HomePhone>
+<Birthday>1955-02-08</Birthday>
+</PERSON>
+</CATEGORY>
+</CATEGORY>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT childtype="TYPE" item="y" line0="{*NAME*}" line1="{*NAME*}" tlversion="1.9.0" uniqueid="Main">
+<NAME idref="y" type="Text">Main</NAME>
+<TYPE childtype="PERSON" formathtml="y" item="y" line0="{*Type*}" line1="&lt;hr /&gt;{*Type*}" uniqueid="Friends">
+<Type idref="y" type="Text">Friends</Type>
+<PERSON item="y" line0="{*FirstName*} {*LastName*}" line1="{*FirstName*} {*LastName*}" line2="{*Street*}" line3="{*City*}, {*State*} {*Zip*}" line4="{*HomePhone*} (H)" line5="{*WorkPhone*} (W)" line6="{*MobilePhone*} (M)" line7="DoB: {*Birthday*}" line8="{*Email*}" uniqueid="Bill">
+<FirstName idref="y" type="Text">Bill</FirstName>
+<LastName type="Text">Smith</LastName>
+<Street type="Text">1492 Columbus Drive</Street>
+<City type="Text">Nina</City>
+<State type="Text">SC</State>
+<Zip type="Text">35762</Zip>
+<HomePhone type="Text">(703) 555-5647</HomePhone>
+<WorkPhone type="Text" />
+<MobilePhone type="Text" />
+<Birthday format="MMMM d, yyyy" type="Date">2004/11/30</Birthday>
+<Email type="ExternalLink">&lt;a href="mailto:bill@pinta.com"&gt;bill@pinta.com&lt;/a&gt;</Email>
+</PERSON>
+<PERSON item="y" uniqueid="John">
+<FirstName>John</FirstName>
+<LastName>Johnson</LastName>
+<Street>1941 Pearl Street</Street>
+<City>Harbor City</City>
+<State>HI</State>
+<Zip>86741</Zip>
+<HomePhone>(401) 555-8923</HomePhone>
+<WorkPhone>(506) 555-7413</WorkPhone>
+<MobilePhone>(703) 555-2873</MobilePhone>
+<Birthday>1905/05/08</Birthday>
+<Email>&lt;a href="mailto:jj@battleship.org"&gt;jj@battleship.org&lt;/a&gt;</Email>
+</PERSON>
+</TYPE>
+<TYPE item="y" uniqueid="Family">
+<Type>Family</Type>
+<PERSON item="y" uniqueid="Jane">
+<FirstName>Jane</FirstName>
+<LastName>Doe</LastName>
+<Street>101 Dalmation Way</Street>
+<City>Dogbone</City>
+<State>SD</State>
+<Zip>52782</Zip>
+<MobilePhone>(654) 555-8527</MobilePhone>
+<Birthday>1901/07/30</Birthday>
+<Email>&lt;a href="mailto:jdoe@spots.net"&gt;jdoe@spots.net&lt;/a&gt;</Email>
+</PERSON>
+<PERSON item="y" uniqueid="John_1">
+<FirstName>John</FirstName>
+<LastName>Doe</LastName>
+<Street>20000 Leagues Street</Street>
+<City>Undersea</City>
+<State>NY</State>
+<Zip>12763</Zip>
+<HomePhone>(805) 555-7296</HomePhone>
+<WorkPhone>(777) 555-9999</WorkPhone>
+<MobilePhone>(503) 555-8234</MobilePhone>
+<Birthday>1999/08/14</Birthday>
+<Email>&lt;a href="mailto:johndoe@subs.com"&gt;johndoe@subs.com&lt;/a&gt;</Email>
+</PERSON>
+</TYPE>
+<TYPE item="y" uniqueid="Work">
+<Type>Work</Type>
+<PERSON item="y" uniqueid="Dil">
+<FirstName>Dil</FirstName>
+<LastName>Bert</LastName>
+<WorkPhone>(501) 555-5612</WorkPhone>
+</PERSON>
+<PERSON item="y" uniqueid="Pointy-haired">
+<FirstName>Pointy-haired</FirstName>
+<LastName>Boss</LastName>
+<WorkPhone>(666) 555-8945</WorkPhone>
+</PERSON>
+</TYPE>
+</ROOT>

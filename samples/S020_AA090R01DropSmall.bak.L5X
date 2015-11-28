@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="20.04" TargetName="S020_AA090R01Drop" TargetType="Routine" TargetSubType="RLL" TargetClass="Standard" ContainsContext="true" Owner="Windows User" ExportDate="Sat Nov 28 11:26:51 2015" ExportOptions="References DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+    <Controller Use="Context" Name="AA110B2">
+        <Programs Use="Context">
+            <Program Use="Context" Name="AA110" Class="Standard">
+                <Routines Use="Context">
+                    <Routine Use="Target" Name="S020_AA090R01Drop" Type="RLL">
+                        <RLLContent>
+                            <Rung Number="0" Type="N">
+                                <Comment>
+                                    <![CDATA[<@VER 1.293><@EDITS ALLOWED>
+<@SYS>
+################################################################
+# Sample Drop Routine for Material Handling Pedestal Welding Robots
+################################################################]]>
+                                </Comment>
+                                <Text>
+                                    <![CDATA[OTE(RungComment);]]>
+                                </Text>
+                            </Rung>
+                        </RLLContent>
+                    </Routine>
+                </Routines>
+            </Program>
+        </Programs>
+    </Controller>
+</RSLogix5000Content>

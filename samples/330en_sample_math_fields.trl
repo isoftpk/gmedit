@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TOP_ASSEMBLY childtype="ASSEMBLY" item="y" line0="{*PartNumber*} {*Name*}" line1="Part {*PartNumber*}" line2="{*Name*}" line3="Assembly Level: {*Level*}" line4="Cost: {*TotalCost*}" tlversion="1.9.8" uniqueid="widget_top_assembly">
+<PartNumber type="Text">123456</PartNumber>
+<Name idref="y" type="Text">Widget Top Assembly</Name>
+<Level format="#" type="Number">1</Level>
+<LaborCost format="0.00" prefix="$" type="Number">3.5</LaborCost>
+<TotalCost eqn="sum({*&amp;Cost*}) + {*LaborCost*}" format="0.00" prefix="$" type="Math">23.89</TotalCost>
+<ASSEMBLY childtype="PART" item="y" line0="{*PartNumber*} {*Name*}" line1="Part {*PartNumber*}" line2="{*Name*}" line3="Assembly Level: {*Level*}" line4="Cost: {*Cost*}" line5="Percent Cost: {*PercentCost*}" uniqueid="lever_assembly">
+<PartNumber type="Text">456789</PartNumber>
+<Name idref="y" type="Text">Lever Assembly</Name>
+<Level eqn="{**Level*} + 1" format="#" type="Math">2</Level>
+<LaborCost format="0.00" prefix="$" type="Number">1.75</LaborCost>
+<Cost eqn="sum({*&amp;Cost*}) + {*LaborCost*}" format="0.00" prefix="$" type="Math">10.040000000000001</Cost>
+<TotalCost eqn="{**TotalCost*}" format="0.00" prefix="$" type="Math">23.89</TotalCost>
+<PercentCost eqn="{*Cost*} / {*TotalCost*} * 100" format="0" suffix="%" type="Math">42.02595228128925</PercentCost>
+<PART item="y" line0="{*PartNumber*} {*Name*}" line1="Part {*PartNumber*}" line2="{*Name*}" line3="Assembly Level: {*Level*}" line4="Cost: {*Cost*}" line5="Percent Cost: {*PercentCost*}" line6="Cost Level: {*CostLevel*}" uniqueid="lever">
+<PartNumber type="Text">987654</PartNumber>
+<Name idref="y" type="Text">Lever</Name>
+<Level eqn="{**Level*} + 1" format="#" type="Math">3</Level>
+<Cost format="0.00" prefix="$" type="Number">5.4</Cost>
+<PercentCost eqn="{*Cost*} / {**TotalCost*} * 100" format="0" suffix="%" type="Math">22.60359983256593</PercentCost>
+<CostLevel eqn="('Low') if ({*PercentCost*} &lt; 20) else ('High')" resulttype="text" type="Math">High</CostLevel>
+</PART>
+<PART item="y" uniqueid="lever_bolt">
+<PartNumber>998877</PartNumber>
+<Name>Lever Bolt</Name>
+<Level>3</Level>
+<Cost>2.89</Cost>
+<PercentCost>12.097111762243616</PercentCost>
+<CostLevel>Low</CostLevel>
+</PART>
+</ASSEMBLY>
+<ASSEMBLY item="y" uniqueid="bracket_assembly">
+<PartNumber>112233</PartNumber>
+<Name>Bracket Assembly</Name>
+<Level>2</Level>
+<LaborCost>2.25</LaborCost>
+<Cost>10.35</Cost>
+<TotalCost>23.89</TotalCost>
+<PercentCost>43.32356634575136</PercentCost>
+<PART item="y" uniqueid="bracket">
+<PartNumber>445566</PartNumber>
+<Name>Bracket</Name>
+<Level>3</Level>
+<Cost>6.2</Cost>
+<PercentCost>25.952281289242364</PercentCost>
+<CostLevel>High</CostLevel>
+</PART>
+<PART item="y" uniqueid="bracket_pin">
+<PartNumber>665544</PartNumber>
+<Name>Bracket Pin</Name>
+<Level>3</Level>
+<Cost>1.9</Cost>
+<PercentCost>7.95311845960653</PercentCost>
+<CostLevel>Low</CostLevel>
+</PART>
+</ASSEMBLY>
+</TOP_ASSEMBLY>

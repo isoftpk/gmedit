@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FOLDER icon="folder_3" item="y" line0="{*Name*}" line1="{*Name*}" tlversion="1.9.0" uniqueid="Bookmarks_Menu">
+<Name idref="y" type="Text">Bookmarks Menu</Name>
+<FOLDER item="y" uniqueid="Information">
+<Name>Information</Name>
+<FOLDER item="y" uniqueid="News">
+<Name>News</Name>
+<BOOKMARK icon="bookmark" item="y" line0="{*Name*}" line1="{*Name*}" line2="{*Link*}" uniqueid="ABC_News">
+<Name idref="y" type="Text">ABC News</Name>
+<Link type="ExternalLink">&lt;a href="http://www.abcnews.com/"&gt;http://www.abcnews.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="CNNcom">
+<Name>CNN.com</Name>
+<Link>&lt;a href="http://www.cnn.com/"&gt;http://www.cnn.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="USA_Today">
+<Name>USA Today</Name>
+<Link>&lt;a href="http://www.usatoday.com/"&gt;http://www.usatoday.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="WashingtonPost">
+<Name>WashingtonPost</Name>
+<Link>&lt;a href="http://washingtonpost.com/"&gt;http://washingtonpost.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+<FOLDER item="y" uniqueid="Reference">
+<Name>Reference</Name>
+<BOOKMARK item="y" uniqueid="Dictionarycom">
+<Name>Dictionary.com</Name>
+<Link>&lt;a href="http://dictionary.com/"&gt;http://dictionary.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="DICT">
+<Name>DICT</Name>
+<Link>&lt;a href="http://www.dict.org/"&gt;http://www.dict.org/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="ibiblio">
+<Name>ibiblio</Name>
+<Link>&lt;a href="http://ibiblio.org/"&gt;http://ibiblio.org/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Wikipedia">
+<Name>Wikipedia</Name>
+<Link>&lt;a href="http://en.wikipedia.org/wiki/Main_Page"&gt;http://en.wikipedia.org/wiki/Main_Page&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+</FOLDER>
+<FOLDER item="y" uniqueid="Linux">
+<Name>Linux</Name>
+<FOLDER item="y" uniqueid="Debian">
+<Name>Debian</Name>
+<BOOKMARK item="y" uniqueid="debianorg">
+<Name>debian.org</Name>
+<Link>&lt;a href="http://www.debian.org/"&gt;http://www.debian.org/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Packages_in_unstable">
+<Name>Packages in "unstable"</Name>
+<Link>&lt;a href="http://packages.debian.org/unstable/"&gt;http://packages.debian.org/unstable/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Packages_in_experimental">
+<Name>Packages in "experimental"</Name>
+<Link>&lt;a href="http://packages.debian.org/experimental/"&gt;http://packages.debian.org/experimental/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Planet_Debian">
+<Name>Planet Debian</Name>
+<Link>&lt;a href="http://planet.debian.net/"&gt;http://planet.debian.net/&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+<FOLDER item="y" uniqueid="News_1">
+<Name>News</Name>
+<BOOKMARK item="y" uniqueid="Linux_Today">
+<Name>Linux Today</Name>
+<Link>&lt;a href="http://linuxtoday.com/"&gt;http://linuxtoday.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Linux_Weekly_News">
+<Name>Linux Weekly News</Name>
+<Link>&lt;a href="http://www.lwn.net/"&gt;http://www.lwn.net/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="The_H">
+<Name>The H</Name>
+<Link>&lt;a href="http://www.h-online.com/"&gt;http://www.h-online.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+</FOLDER>
+<FOLDER item="y" uniqueid="Programming">
+<Name>Programming</Name>
+<FOLDER item="y" uniqueid="PyQt">
+<Name>PyQt</Name>
+<BOOKMARK item="y" uniqueid="PyQt_Wiki">
+<Name>PyQt Wiki</Name>
+<Link>&lt;a href="http://www.diotavelli.net/PyQtWiki"&gt;http://www.diotavelli.net/PyQtWiki&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Riverbank_PyQt">
+<Name>Riverbank PyQt</Name>
+<Link>&lt;a href="http://www.riverbankcomputing.co.uk/"&gt;http://www.riverbankcomputing.co.uk/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="QT_Trolltech">
+<Name>QT Trolltech</Name>
+<Link>&lt;a href="http://qt.nokia.com/"&gt;http://qt.nokia.com/&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+<FOLDER item="y" uniqueid="Python">
+<Name>Python</Name>
+<BOOKMARK item="y" uniqueid="OReilly_Python">
+<Name>OReilly Python</Name>
+<Link>&lt;a href="http://www.oreillynet.com/python/"&gt;http://www.oreillynet.com/python/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Python_1">
+<Name>Python</Name>
+<Link>&lt;a href="http://www.python.org/"&gt;http://www.python.org/&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+<FOLDER item="y" uniqueid="Tools">
+<Name>Tools</Name>
+<BOOKMARK item="y" uniqueid="Mercurial">
+<Name>Mercurial</Name>
+<Link>&lt;a href="http://www.selenic.com/mercurial/wiki/"&gt;http://www.selenic.com/mercurial/wiki/&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Mercurial_Book">
+<Name>Mercurial Book</Name>
+<Link>&lt;a href="http://hgbook.red-bean.com/hgbook.html"&gt;http://hgbook.red-bean.com/hgbook.html&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+</FOLDER>
+<FOLDER item="y" uniqueid="Weather">
+<Name>Weather</Name>
+<BOOKMARK item="y" uniqueid="ADDS_-_Aviation_Digital_Data_Service">
+<Name>ADDS - Aviation Digital Data Service</Name>
+<Link>&lt;a href="http://www.aviationweather.gov/adds"&gt;http://www.aviationweather.gov/adds&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="NOAA">
+<Name>NOAA</Name>
+<Link>&lt;a href="http://forecast.weather.gov/MapClick.php?lat=39.105&amp;lon=-77.26"&gt;http://forecast.weather.gov/MapClick.php?lat=39.105&amp;lon=-77.26&lt;/a&gt;</Link>
+</BOOKMARK>
+<BOOKMARK item="y" uniqueid="Weather_Underground">
+<Name>Weather Underground</Name>
+<Link>&lt;a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=gai"&gt;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=gai&lt;/a&gt;</Link>
+</BOOKMARK>
+</FOLDER>
+<SEPARATOR formathtml="y" item="n" line0="------------------" line1="&lt;hr&gt;"><Name idref="y" type="Text" />
+</SEPARATOR>
+</FOLDER>

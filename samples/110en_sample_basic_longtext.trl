@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT item="y" line0="{*Name*}" line1="{*Name*}" tlversion="1.9.7" uniqueid="Text_Fields">
+<Name idref="y" type="Text">Text Fields</Name>
+<REGULAR_TEXT formathtml="y" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*}&lt;/b&gt;" line2="{*Text*}" uniqueid="Similar_to_Treepad">
+<Name idref="y" type="Text">Similar to Treepad</Name>
+<Text lines="12" type="Text">This file provides a single long text field for each node. This is similar to how the Treepad program on windows is usually used.</Text>
+</REGULAR_TEXT>
+<REGULAR_TEXT item="y" uniqueid="Regular_text_field">
+<Name>Regular text field</Name>
+<Text>The most commonly used field type is regular text. Formatting such as &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italics&lt;/i&gt;, font sizes and &lt;span style="color:#aa0000"&gt;font colors&lt;/span&gt; can be used from the Edit menu.&lt;br /&gt;
+&lt;br /&gt;
+It preserves carriage return spaces, but not multiple spaces      within a line.</Text>
+</REGULAR_TEXT>
+<HTML_TEXT formathtml="y" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*}&lt;/b&gt;" line2="{*Text*}" uniqueid="html_text_field">
+<Name idref="y" type="Text">HTML text field</Name>
+<Text lines="12" type="HtmlText">An HTML field allows tags such as &lt;i&gt;italics&lt;/i&gt; to be added manually.
+
+It does not preserve white space.
+
+Characters like &amp;lt;, &amp;gt;, and &amp;amp; must be escaped.</Text>
+</HTML_TEXT>
+<SPACED_TEXT formathtml="y" item="y" line0="{*Name*}" line1="&lt;b&gt;{*Name*}&lt;/b&gt;{*Text*}" uniqueid="spaced_text_field">
+<Name idref="y" type="Text">Spaced text field</Name>
+<Text lines="12" type="SpacedText">A spaced text field preserves all    white    space.
+
+It does not allow character formatting.</Text>
+</SPACED_TEXT>
+</ROOT>

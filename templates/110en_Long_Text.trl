@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LONG_TEXT item="y" line0="{*Name*}" line1="{*Name*}" line2="{*Text*}" tlversion="1.9.0" uniqueid="Parent">
+<Name idref="y" type="Text">Parent</Name>
+<Text lines="8" type="Text">Parent text</Text>
+<LONG_TEXT item="y" uniqueid="Child">
+<Name>Child</Name>
+<Text>Child text</Text>
+</LONG_TEXT>
+</LONG_TEXT>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CATEGORY childtype="AUTHOR" item="y" line0="{*NAME*}" line1="{*NAME*}" tlversion="1.9.0" uniqueid="SF_Books">
+<NAME idref="y" type="Text">SF Books</NAME>
+<AUTHOR childtype="BOOK" icon="book_3" item="y" line0="{*AuthorFirstName*} {*AuthorLastName*}" line1="{*AuthorFirstName*} {*AuthorLastName*}" uniqueid="Orson_Scott">
+<AuthorFirstName idref="y" sortkeynum="2" type="Text">Orson Scott</AuthorFirstName>
+<AuthorLastName sortkeynum="1" type="Text">Card</AuthorLastName>
+<BOOK icon="book_1" item="y" line0="&quot;{*Title*}&quot;" line1="&quot;{*Title*}&quot;" line2="(c) {*Copyright*}" line3="Last Read: {*ReadDate*}" line4="{*Plot*}" uniqueid="Enders_Game">
+<Title idref="y" sortkeynum="2" type="Text">Ender's Game</Title>
+<Copyright format="0000" sortkeynum="1" type="Number">1985</Copyright>
+<ReadDate format="MMMM, yyyy" type="Date">2007/04/30</ReadDate>
+<Plot type="Text">Young boy is taught fighting and leadership</Plot>
+</BOOK>
+</AUTHOR>
+<AUTHOR item="y" uniqueid="Isaac">
+<AuthorFirstName>Isaac</AuthorFirstName>
+<AuthorLastName>Asimov</AuthorLastName>
+<BOOK item="y" uniqueid="Foundation">
+<Title>Foundation</Title>
+<Copyright>1951</Copyright>
+<Plot>Psychohistory predicts the fall of empire</Plot>
+</BOOK>
+</AUTHOR>
+</CATEGORY>

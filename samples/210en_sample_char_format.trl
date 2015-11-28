@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ROOT item="y" line0="{*Name*}" line1="{*Name*}" tlversion="1.9.0" uniqueid="Character_Format_Examples">
+<Name idref="y" type="Text">Character Format Examples</Name>
+<TEXT_PARA formathtml="y" icon="doc" item="y" line0="{*TOPIC*}" line1="&lt;b&gt;{*TOPIC*}&lt;/b&gt;" line2="{*TEXT*}" uniqueid="Bold_Titles">
+<TOPIC idref="y" type="Text">Bold Titles</TOPIC>
+<TEXT lines="7" type="Text">All titles can be set to bold by adding &amp;lt;b&amp;gt;...&amp;lt;/b&amp;gt; tags in the Configure Data Types dialog's Output tab.  The "Allow HTML rich text in format" option must also be checked in the Type Config tab.</TEXT>
+</TEXT_PARA>
+<TEXT_PARA item="y" uniqueid="Bold_Text">
+<TOPIC>Bold Text</TOPIC>
+<TEXT>Font formatting commands can be found in the Edit menu and in the &lt;b&gt;right-click context menu&lt;/b&gt; in the "Data Editor" view.</TEXT>
+</TEXT_PARA>
+<TEXT_PARA item="y" uniqueid="Colored_Text">
+<TOPIC>Colored Text</TOPIC>
+<TEXT>Text can also be &lt;span style="color:#aa0000"&gt;set&lt;/span&gt; to various &lt;span style="color:#00007f"&gt;colors&lt;/span&gt;.</TEXT>
+</TEXT_PARA>
+<TEXT_PARA item="y" uniqueid="Font_Size">
+<TOPIC>Font Size</TOPIC>
+<TEXT>&lt;font size="+2"&gt;Large text&lt;/font&gt; and &lt;font size="-1"&gt;small text&lt;/font&gt;</TEXT>
+</TEXT_PARA>
+<TEXT_PARA item="y" uniqueid="Italics_and_Underline">
+<TOPIC>Italics and Underline</TOPIC>
+<TEXT>Text in &lt;i&gt;italics&lt;/i&gt; and even text &lt;u&gt;underlined&lt;/u&gt;</TEXT>
+</TEXT_PARA>
+</ROOT>

@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FOLDER icon="folder_3" item="y" line0="{*Name*}" line1="{*Name*}" tlversion="2.0.2" uniqueid="abc">
+    <Name idref="y" type="Text">General Programming Books</Name>
+    <FOLDER item="y" uniqueid="literate_my_programming">
+        <Name>Literate myy programming</Name>
+        <BOOKMARK icon="bookmark" item="y" line0="{*Name*}" line1="{*Name*}" line2="{*Link*}" uniqueid="synopsis_of_literate_programming">
+            <Name idref="y" type="Text">Synopsis of Literate Programming</Name>
+            <Link type="ExternalLink">&lt;a href="http://www.vivtek.com/litprog.html"&gt;http://www.vivtek.com/litprog.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="literate_programming_propaganda_and_tools">
+            <Name>Literate Programming: Propaganda and Tools</Name>
+            <Link>&lt;a href="http://vasc.ri.cmu.edu/old_help/Programming/Literate/literate.html"&gt;http://vasc.ri.cmu.edu/old_help/Programming/Literate/literate.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="literate_programming_by_henrik_turbell">
+            <Name>Literate Programming by Henrik Turbell</Name>
+            <Link>&lt;a href="http://www.isy.liu.se/%7Eturbell/litprog/"&gt;http://www.isy.liu.se/%7Eturbell/litprog/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="literate_programming_library">
+            <Name>Literate Programming Library</Name>
+            <Link>&lt;a href="http://www.desy.de/user/projects/LitProg.html"&gt;http://www.desy.de/user/projects/LitProg.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+    </FOLDER>
+    <FOLDER item="y" uniqueid="useful_c_links">
+        <Name>Useful C++ Links</Name>
+        <FOLDER item="y" uniqueid="stl">
+            <Name>STL</Name>
+            <BOOKMARK item="y" uniqueid="stl_reference_documentation">
+                <Name>STL Reference Documentation</Name>
+                <Link>&lt;a href="http://www.sgi.com/tech/stl/table_of_contents.html"&gt;http://www.sgi.com/tech/stl/table_of_contents.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="stl_tutorial">
+                <Name>STL Tutorial</Name>
+                <Link>&lt;a href="http://www.yrl.co.uk/~phil/stl/stl.htmlx"&gt;http://www.yrl.co.uk/~phil/stl/stl.htmlx&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="stl_reference">
+                <Name>STL Reference</Name>
+                <Link>&lt;a href="http://www.cppreference.com/cpp_stl.html"&gt;http://www.cppreference.com/cpp_stl.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+        </FOLDER>
+        <FOLDER item="y" uniqueid="qt">
+            <Name>Qt</Name>
+            <BOOKMARK item="y" uniqueid="qt_23_reference">
+                <Name>Qt 2.3 Reference</Name>
+                <Link>&lt;a href="http://doc.trolltech.com/2.3/"&gt;http://doc.trolltech.com/2.3/&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="qt_33_reference">
+                <Name>Qt 3.3 Reference</Name>
+                <Link>&lt;a href="http://doc.trolltech.com/3.3/"&gt;http://doc.trolltech.com/3.3/&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="qt_40_reference">
+                <Name>Qt 4.0 Reference</Name>
+                <Link>&lt;a href="http://doc.trolltech.com/4.0/"&gt;http://doc.trolltech.com/4.0/&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="trolltech_home_page">
+                <Name>Trolltech Home Page</Name>
+                <Link>&lt;a href="http://www.trolltech.com/"&gt;http://www.trolltech.com/&lt;/a&gt;</Link>
+            </BOOKMARK>
+        </FOLDER>
+        <FOLDER item="y" uniqueid="iostreams">
+            <Name>IOStreams</Name>
+            <BOOKMARK item="y" uniqueid="io_stream_library">
+                <Name>IO Stream Library</Name>
+                <Link>&lt;a href="http://www.cplusplus.com/ref/iostream/index.html"&gt;http://www.cplusplus.com/ref/iostream/index.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="binary_io">
+                <Name>Binary I/O</Name>
+                <Link>&lt;a href="http://courses.cs.vt.edu/~cs2604/fall01/binio.html"&gt;http://courses.cs.vt.edu/~cs2604/fall01/binio.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="io_stream_faq">
+                <Name>I/O Stream FAQ</Name>
+                <Link>&lt;a href="http://www.parashift.com/c++-faq-lite/input-output.html"&gt;http://www.parashift.com/c++-faq-lite/input-output.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+        </FOLDER>
+        <FOLDER item="y" uniqueid="gdb">
+            <Name>gdb</Name>
+            <BOOKMARK item="y" uniqueid="gdb_tutorial">
+                <Name>GDB Tutorial</Name>
+                <Link>&lt;a href="http://www.cs.princeton.edu/~benjasik/gdb/gdbtut.html"&gt;http://www.cs.princeton.edu/~benjasik/gdb/gdbtut.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="debugging_with_gdb">
+                <Name>Debugging with GDB</Name>
+                <Link>&lt;a href="http://www.gnu.org/manual/gdb-4.17/html_mono/gdb.html"&gt;http://www.gnu.org/manual/gdb-4.17/html_mono/gdb.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="gdb_quick_reference_page_pdf_handy">
+                <Name>GDB Quick Reference Page (PDF) (Handy)</Name>
+                <Link>&lt;a href="http://www.cs.washington.edu/orgs/acm/tutorials/dev-in-unix/gdb-refcard.pdf"&gt;http://www.cs.washington.edu/orgs/acm/tutorials/dev-in-unix/gdb-refcard.pdf&lt;/a&gt;</Link>
+            </BOOKMARK>
+        </FOLDER>
+        <FOLDER item="y" uniqueid="classes_and_constructors">
+            <Name>Classes and Constructors</Name>
+            <BOOKMARK item="y" uniqueid="constructor_faq">
+                <Name>Constructor FAQ</Name>
+                <Link>&lt;a href="http://www.parashift.com/c++-faq-lite/ctors.html"&gt;http://www.parashift.com/c++-faq-lite/ctors.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+            <BOOKMARK item="y" uniqueid="organizing_classes">
+                <Name>Organizing Classes</Name>
+                <Link>&lt;a href="http://www.juicystudio.com/tutorial/cpp/index.html"&gt;http://www.juicystudio.com/tutorial/cpp/index.html&lt;/a&gt;</Link>
+            </BOOKMARK>
+        </FOLDER>
+    </FOLDER>
+    <FOLDER item="y" uniqueid="software_documentation_or_system_documentation">
+        <Name>Software Documentation or System Documentation</Name>
+        <BOOKMARK item="y" uniqueid="the_almighty_thud">
+            <Name>The Almighty Thud</Name>
+            <Link>&lt;a href="http://www.martinfowler.com/distributedComputing/thud.html"&gt;http://www.martinfowler.com/distributedComputing/thud.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="microsoft_coding_techniques_and_programming">
+            <Name>Microsoft Coding Techniques and Programming Practices</Name>
+            <Link>&lt;a href="http://msdn.microsoft.com/library/techart/cfr.htm"&gt;http://msdn.microsoft.com/library/techart/cfr.htm&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="software_and_documentation">
+            <Name>Software and Documentation</Name>
+            <Link>&lt;a href="http://www.bearcave.com/software/prog_docs.html"&gt;http://www.bearcave.com/software/prog_docs.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="the_source_code_is_the_design">
+            <Name>The Source Code is the Design</Name>
+            <Link>&lt;a href="http://c2.com/cgi/wiki?TheSourceCodeIsTheDesign"&gt;http://c2.com/cgi/wiki?TheSourceCodeIsTheDesign&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="what_is_software_design">
+            <Name>What is Software Design?</Name>
+            <Link>&lt;a href="http://www.bleading-edge.com/Publications/C++Journal/Cpjour2.htm"&gt;http://www.bleading-edge.com/Publications/C++Journal/Cpjour2.htm&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="how_to_write_unmaintainable_code">
+            <Name>How To Write Unmaintainable Code</Name>
+            <Link>&lt;a href="http://www.mindprod.com/unmain.html"&gt;http://www.mindprod.com/unmain.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="self_documenting_program_code_remains_a_distant">
+            <Name>Self Documenting Program Code Remains a Distant Goal</Name>
+            <Link>&lt;a href="http://www.idinews.com/selfDoc.html"&gt;http://www.idinews.com/selfDoc.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="place_tab_a_in_slot_b">
+            <Name>Place Tab A in Slot B</Name>
+            <Link>&lt;a href="http://www.sdmagazine.com/documents/s=730/sdm0106m/0106m.htm"&gt;http://www.sdmagazine.com/documents/s=730/sdm0106m/0106m.htm&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="uml_reference_card">
+            <Name>UML Reference Card</Name>
+            <Link>&lt;a href="http://www.holub.com/class/uml/uml.html"&gt;http://www.holub.com/class/uml/uml.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+    </FOLDER>
+    <FOLDER item="y" uniqueid="tex_resources">
+        <Name>TeX Resources</Name>
+        <BOOKMARK item="y" uniqueid="the_tex_users_group">
+            <Name>The TeX User's Group</Name>
+            <Link>&lt;a href="http://www.tug.org/"&gt;http://www.tug.org/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="miktex_website">
+            <Name>MikTeX website</Name>
+            <Link>&lt;a href="http://www.miktex.org/"&gt;http://www.miktex.org/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="metapost_website">
+            <Name>MetaPost website</Name>
+            <Link>&lt;a href="http://cm.bell-labs.com/who/hobby/MetaPost.html"&gt;http://cm.bell-labs.com/who/hobby/MetaPost.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="hevea_is_a_quite_complete_and_fast_latex_to_html">
+            <Name>HEVEA is a quite complete and fast LATEX to HTML translator</Name>
+            <Link>&lt;a href="http://pauillac.inria.fr/%7Emaranget/hevea/"&gt;http://pauillac.inria.fr/%7Emaranget/hevea/&lt;/a&gt;</Link>
+        </BOOKMARK>
+    </FOLDER>
+    <FOLDER item="y" uniqueid="portable_document_format_pdf">
+        <Name>Portable Document Format (PDF)</Name>
+        <BOOKMARK item="y" uniqueid="adobe_-_the_postscript_and_pdf_standards">
+            <Name>Adobe - The postscript and PDF standards</Name>
+            <Link>&lt;a href="http://www.adobe.com/"&gt;http://www.adobe.com/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="reference_manual_portable_document_format">
+            <Name>Reference Manual Portable Document Format</Name>
+            <Link>&lt;a href="http://partners.adobe.com/asn/developer/technotes/acrobatpdf.html"&gt;http://partners.adobe.com/asn/developer/technotes/acrobatpdf.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="adobe_acrobat_software_development_kit">
+            <Name>Adobe Acrobat Software Development Kit</Name>
+            <Link>&lt;a href="http://partners.adobe.com/asn/developer/acrosdk/main.html"&gt;http://partners.adobe.com/asn/developer/acrosdk/main.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+    </FOLDER>
+    <FOLDER item="y" uniqueid="literature_sites">
+        <Name>Literature Sites</Name>
+        <BOOKMARK item="y" uniqueid="literary_criticism_on_the_web_from_the_internet">
+            <Name>Literary Criticism on the Web from the Internet Public Library</Name>
+            <Link>&lt;a href="http://www.ipl.org/ref/litcrit/"&gt;http://www.ipl.org/ref/litcrit/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="victorian_web">
+            <Name>Victorian Web.</Name>
+            <Link>&lt;a href="http://www.victorianweb.org/"&gt;http://www.victorianweb.org/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="voice_of_the_shuttle">
+            <Name>Voice of the Shuttle.</Name>
+            <Link>&lt;a href="http://vos.ucsb.edu/"&gt;http://vos.ucsb.edu/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="modernist_journals_project">
+            <Name>Modernist Journals Project</Name>
+            <Link>&lt;a href="http://www.modjourn.brown.edu/"&gt;http://www.modjourn.brown.edu/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="museum_of_american_poetics">
+            <Name>Museum of American Poetics</Name>
+            <Link>&lt;a href="http://www.poetspath.com"&gt;http://www.poetspath.com&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="modern_american_poetry">
+            <Name>Modern American Poetry</Name>
+            <Link>&lt;a href="http://www.english.uiuc.edu/maps/"&gt;http://www.english.uiuc.edu/maps/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="findarticlescom">
+            <Name>FindArticles.com</Name>
+            <Link>&lt;a href="http://www.findarticles.com/"&gt;http://www.findarticles.com/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="the_university_of_california_press">
+            <Name>The University of California Press</Name>
+            <Link>&lt;a href="http://texts.cdlib.org/ucpress/"&gt;http://texts.cdlib.org/ucpress/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="wright_american_fiction_1851-1875">
+            <Name>Wright American Fiction, 1851-1875</Name>
+            <Link>&lt;a href="http://www.letrs.indiana.edu/web/w/wright2/"&gt;http://www.letrs.indiana.edu/web/w/wright2/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="documenting_the_american_south_beginnings_to_1920">
+            <Name>Documenting the American South: Beginnings to 1920</Name>
+            <Link>&lt;a href="http://docsouth.unc.edu/"&gt;http://docsouth.unc.edu/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="electronic_text_center_at_the_university_of">
+            <Name>Electronic Text Center at the University of Virginia</Name>
+            <Link>&lt;a href="http://etext.lib.virginia.edu/eng-on.html"&gt;http://etext.lib.virginia.edu/eng-on.html&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="the_schomburg_center_for_research_in_black_culture">
+            <Name>The Schomburg Center for Research in Black Culture</Name>
+            <Link>&lt;a href="http://digital.nypl.org/schomburg/writers_aa19/"&gt;http://digital.nypl.org/schomburg/writers_aa19/&lt;/a&gt;</Link>
+        </BOOKMARK>
+        <BOOKMARK item="y" uniqueid="alex_catalogue_of_electronic_texts">
+            <Name>Alex Catalogue of Electronic Texts.</Name>
+            <Link>&lt;a href="http://www.infomotions.com/alex2/"&gt;http://www.infomotions.com/alex2/&lt;/a&gt;</Link>
+        </BOOKMARK>
+    </FOLDER>
+    <SEPARATOR formathtml="y" item="n" line0="------------------" line1="&lt;hr&gt;"><Name idref="y" type="Text" />
+    </SEPARATOR>
+</FOLDER>
